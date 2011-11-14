@@ -3,6 +3,31 @@ ________________________________________________________________________________
                     INVASION FROM THE UNKNOWN - CHANGELOG
 ________________________________________________________________________________
 
+Version 1.90.5:
+- Units:
+    - Updated AMLA XP requirements to match mainline on 1.9.10 and later.
+________________________________________________________________________________
+
+Version 1.90.4:
+- Scenarios
+    - 23C
+         - Made it so that Rurhló and Garg aren't recalled.
+________________________________________________________________________________
+
+Version 1.90.3:
+- Graphics:
+    - Introduced Elynia's sprite from After the Storm.
+
+- Scenarios:
+    - Recall Rurhló and Garg in non-cutscene scenarios after Innuendo.
+
+- Units
+    - Brought back the old Falcon unit since it will no longer be in mainline
+      starting with 1.9.10.
+    - Made use of image_icon= in the Verlissh Matrix Core and the Verlissh
+      Matrix Flow System units to enhance experience in 1.9.10 and beyond.
+________________________________________________________________________________
+
 Version 1.90.2:
 - Graphics:
     - New or updated unit graphics: Shaxthal Drone, Shaxthal Runner Drone,
@@ -693,6 +718,6 @@ Version 1.10.0 (interim release):
     - Simplified Shaxthal's unit_type variation WML
 ________________________________________________________________________________
 
-; $Id: ChangeLog 11554 2011-11-06 05:11:30Z espreon $
+; $Id: ChangeLog 11626 2011-11-08 02:29:44Z shikadilord $
 ; kate: indent-mode normal; encoding utf-8; space-indent on; word-wrap on;
 ; vim: tabstop=4: shiftwidth=4: expandtab: softtabstop=4: autoindent:
