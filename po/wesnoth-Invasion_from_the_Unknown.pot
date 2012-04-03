@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2012-02-26 17:21+0100\n"
+"POT-Creation-Date: 2012-04-03 16:46-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -336,19 +336,19 @@ msgstr ""
 
 #. [side]: type=Ancient Lich, id=Mal Keshar
 #. [unit]: id=Mal Keshar, type=Ancient Lich
-#: ./Invasion_from_the_Unknown/scenarios/03_Memories_from_the_Depths.cfg:37 ./Invasion_from_the_Unknown/scenarios/03_Memories_from_the_Depths.cfg:557 ./Invasion_from_the_Unknown/scenarios/arenas/23B_01/battle.cfg:969 ./Invasion_from_the_Unknown/macros/character-defines.cfg:18
+#: ./Invasion_from_the_Unknown/macros/character-defines.cfg:18 ./Invasion_from_the_Unknown/scenarios/03_Memories_from_the_Depths.cfg:37 ./Invasion_from_the_Unknown/scenarios/03_Memories_from_the_Depths.cfg:557 ./Invasion_from_the_Unknown/scenarios/arenas/23B_01/battle.cfg:969
 msgid "Mal Keshar"
 msgstr ""
 
 #. [unit]: type=Lady of Light, id=Elynia
 #. [unit]: type=Sylvan Warden, id=Elynia
-#: ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:1353 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:1843 ./Invasion_from_the_Unknown/scenarios/arenas/23B_01/battle.cfg:895 ./Invasion_from_the_Unknown/macros/character-defines.cfg:31
+#: ./Invasion_from_the_Unknown/macros/character-defines.cfg:31 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:1353 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:1843 ./Invasion_from_the_Unknown/scenarios/arenas/23B_01/battle.cfg:895
 msgid "Elynia"
 msgstr ""
 
-#. [unit]: id=Althurin, type=Dwarvish Runemaster
 #. [unit]: id=Althurin, type=Dwarvish Arcanister
-#: ./Invasion_from_the_Unknown/scenarios/08_Errand_of_Hope.cfg:573 ./Invasion_from_the_Unknown/scenarios/14_Bye_and_Behold.cfg:259 ./Invasion_from_the_Unknown/macros/character-defines.cfg:45
+#. [unit]: id=Althurin, type=Dwarvish Runemaster
+#: ./Invasion_from_the_Unknown/macros/character-defines.cfg:45 ./Invasion_from_the_Unknown/scenarios/08_Errand_of_Hope.cfg:573 ./Invasion_from_the_Unknown/scenarios/14_Bye_and_Behold.cfg:259
 msgid "Althurin"
 msgstr ""
 
@@ -473,8 +473,8 @@ msgstr ""
 msgid "Do you want to be healed?"
 msgstr ""
 
-#. [object]: id=healing_glyph_at_{_X}_{_Y}
 #. [message]: speaker=narrator
+#. [object]: id=healing_glyph_at_{_X}_{_Y}
 #: ./Invasion_from_the_Unknown/macros/items.cfg:169 ./Invasion_from_the_Unknown/macros/items.cfg:178
 msgid "Crystal Glyph of Health"
 msgstr ""
@@ -721,7 +721,7 @@ msgid "You receive $temp_gold_retrieval_amount pieces of gold!"
 msgstr ""
 
 #. [objectives]
-#: ./Invasion_from_the_Unknown/scenarios/04_Over_the_Sands.cfg:998 ./Invasion_from_the_Unknown/scenarios/08_Errand_of_Hope.cfg:809 ./Invasion_from_the_Unknown/scenarios/03_Memories_from_the_Depths.cfg:250 ./Invasion_from_the_Unknown/scenarios/03_Memories_from_the_Depths.cfg:305 ./Invasion_from_the_Unknown/macros/scenario-utils.cfg:175
+#: ./Invasion_from_the_Unknown/macros/scenario-utils.cfg:175 ./Invasion_from_the_Unknown/scenarios/03_Memories_from_the_Depths.cfg:250 ./Invasion_from_the_Unknown/scenarios/03_Memories_from_the_Depths.cfg:305 ./Invasion_from_the_Unknown/scenarios/04_Over_the_Sands.cfg:998 ./Invasion_from_the_Unknown/scenarios/08_Errand_of_Hope.cfg:809
 msgid "New objectives:"
 msgstr ""
 
@@ -747,12 +747,12 @@ msgstr ""
 msgid "Volcanic Underground"
 msgstr ""
 
-#. [terrain_type]: id=overlay-pit
 #. [terrain_type]: id=dark-hive-floor
-#. [terrain_type]: id=dark-hive-surface
 #. [terrain_type]: id=dark-hive-lair
+#. [terrain_type]: id=dark-hive-surface
+#. [terrain_type]: id=overlay-pit
 #. [time]: id=indoors_hive
-#: ./Invasion_from_the_Unknown/terrain-virtual.cfg:29 ./Invasion_from_the_Unknown/terrain.cfg:27 ./Invasion_from_the_Unknown/terrain.cfg:36 ./Invasion_from_the_Unknown/terrain.cfg:45 ./Invasion_from_the_Unknown/macros/schedules.cfg:46
+#: ./Invasion_from_the_Unknown/macros/schedules.cfg:46 ./Invasion_from_the_Unknown/terrain-virtual.cfg:29 ./Invasion_from_the_Unknown/terrain.cfg:27 ./Invasion_from_the_Unknown/terrain.cfg:36 ./Invasion_from_the_Unknown/terrain.cfg:45
 msgid "Dark Hive"
 msgstr ""
 
@@ -1489,8 +1489,8 @@ msgstr ""
 msgid "female^spirit"
 msgstr ""
 
-#. [trait]: id=spirit
 #. [trait]: id=biomechanical
+#. [trait]: id=spirit
 #: ./Invasion_from_the_Unknown/macros/traits.cfg:12 ./Invasion_from_the_Unknown/macros/traits.cfg:53
 msgid "Immune to drain, poison, and plague"
 msgstr ""
@@ -1523,7 +1523,7 @@ msgstr ""
 #. [attack]: type=arcane
 #. [dummy]: id=union
 #. [effect]: type=arcane
-#: ./Invasion_from_the_Unknown/units/undead/Mal_Keshar.cfg:81 ./Invasion_from_the_Unknown/macros/union.cfg:11 ./Invasion_from_the_Unknown/macros/union.cfg:29
+#: ./Invasion_from_the_Unknown/macros/union.cfg:11 ./Invasion_from_the_Unknown/macros/union.cfg:29 ./Invasion_from_the_Unknown/units/undead/Mal_Keshar.cfg:81
 msgid "union"
 msgstr ""
 
@@ -1573,18 +1573,18 @@ msgstr ""
 msgid "Border Patrol"
 msgstr ""
 
-#. [side]: type=Elvish Hero, id=Galas
-#. [side]: type=Elvish Fighter, id=Galas
 #. [side]: id=Galas, type=Elvish Fighter
-#: ./Invasion_from_the_Unknown/scenarios/22B_Face_of_the_Enemy.cfg:30 ./Invasion_from_the_Unknown/scenarios/13x_Inter.cfg:61 ./Invasion_from_the_Unknown/scenarios/04_Over_the_Sands.cfg:48 ./Invasion_from_the_Unknown/scenarios/08_Errand_of_Hope.cfg:22 ./Invasion_from_the_Unknown/scenarios/14xB_The_Aragwaithi.cfg:18 ./Invasion_from_the_Unknown/scenarios/23Cx_Finale.cfg:20 ./Invasion_from_the_Unknown/scenarios/12x_Outside.cfg:18 ./Invasion_from_the_Unknown/scenarios/16x_Council_of_Destiny.cfg:21 ./Invasion_from_the_Unknown/scenarios/22A_Innuendo.cfg:33 ./Invasion_from_the_Unknown/scenarios/13_Face_your_Fate.cfg:21 ./Invasion_from_the_Unknown/scenarios/07_The_Elf_and_Goliath.cfg:22 ./Invasion_from_the_Unknown/scenarios/20x_The_Plot.cfg:21 ./Invasion_from_the_Unknown/scenarios/03_Memories_from_the_Depths.cfg:22 ./Invasion_from_the_Unknown/scenarios/14xA_The_Aragwaithi.cfg:21 ./Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:53 ./Invasion_from_the_Unknown/scenarios/23By_Broken_Heart.cfg:21 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:23 ./Invasion_from_the_Unknown/scenarios/02_A_Real_Confrontation.cfg:37 ./Invasion_from_the_Unknown/scenarios/05a_Crossfire.cfg:43 ./Invasion_from_the_Unknown/scenarios/01_Border_Patrol.cfg:37 ./Invasion_from_the_Unknown/scenarios/23A_Frozen_Hell.cfg:55 ./Invasion_from_the_Unknown/scenarios/08x_A_Royal_Meeting.cfg:22 ./Invasion_from_the_Unknown/scenarios/14_Bye_and_Behold.cfg:45 ./Invasion_from_the_Unknown/scenarios/18_Armageddon.cfg:23 ./Invasion_from_the_Unknown/scenarios/24_Epilogue.cfg:24 ./Invasion_from_the_Unknown/scenarios/15_Shadows_of_Time.cfg:41 ./Invasion_from_the_Unknown/scenarios/16_Arrival_of_the_Battalion.cfg:43 ./Invasion_from_the_Unknown/scenarios/22C_Dark_Hive.cfg:32 ./Invasion_from_the_Unknown/scenarios/23C_Broken_Heart.cfg:30 ./Invasion_from_the_Unknown/scenarios/06_The_Moon_Valley.cfg:41 ./Invasion_from_the_Unknown/scenarios/arenas/23B_01.cfg:25 ./Invasion_from_the_Unknown/scenarios/19_Legend_of_Wesmere.cfg:36 ./Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:34 ./Invasion_from_the_Unknown/scenarios/11_Strike_on_New_Knalga.cfg:25 ./Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair.cfg:32 ./Invasion_from_the_Unknown/scenarios/21_The_Heart.cfg:45 ./Invasion_from_the_Unknown/scenarios/09_The_Library.cfg:25 ./Invasion_from_the_Unknown/scenarios/23Bx_Agony_of_Body_and_Soul.cfg:19 ./Invasion_from_the_Unknown/scenarios/17_Dawn_of_the_Great_War.cfg:61 ./Invasion_from_the_Unknown/scenarios/05b_Cursed_Plateau.cfg:40
+#. [side]: type=Elvish Fighter, id=Galas
+#. [side]: type=Elvish Hero, id=Galas
+#: ./Invasion_from_the_Unknown/scenarios/01_Border_Patrol.cfg:37 ./Invasion_from_the_Unknown/scenarios/02_A_Real_Confrontation.cfg:37 ./Invasion_from_the_Unknown/scenarios/03_Memories_from_the_Depths.cfg:22 ./Invasion_from_the_Unknown/scenarios/04_Over_the_Sands.cfg:48 ./Invasion_from_the_Unknown/scenarios/05a_Crossfire.cfg:43 ./Invasion_from_the_Unknown/scenarios/05b_Cursed_Plateau.cfg:40 ./Invasion_from_the_Unknown/scenarios/06_The_Moon_Valley.cfg:41 ./Invasion_from_the_Unknown/scenarios/07_The_Elf_and_Goliath.cfg:22 ./Invasion_from_the_Unknown/scenarios/08_Errand_of_Hope.cfg:22 ./Invasion_from_the_Unknown/scenarios/08x_A_Royal_Meeting.cfg:22 ./Invasion_from_the_Unknown/scenarios/09_The_Library.cfg:25 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:23 ./Invasion_from_the_Unknown/scenarios/11_Strike_on_New_Knalga.cfg:25 ./Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:53 ./Invasion_from_the_Unknown/scenarios/12x_Outside.cfg:18 ./Invasion_from_the_Unknown/scenarios/13_Face_your_Fate.cfg:21 ./Invasion_from_the_Unknown/scenarios/13x_Inter.cfg:61 ./Invasion_from_the_Unknown/scenarios/14_Bye_and_Behold.cfg:45 ./Invasion_from_the_Unknown/scenarios/14xA_The_Aragwaithi.cfg:21 ./Invasion_from_the_Unknown/scenarios/14xB_The_Aragwaithi.cfg:18 ./Invasion_from_the_Unknown/scenarios/15_Shadows_of_Time.cfg:41 ./Invasion_from_the_Unknown/scenarios/16_Arrival_of_the_Battalion.cfg:43 ./Invasion_from_the_Unknown/scenarios/16x_Council_of_Destiny.cfg:21 ./Invasion_from_the_Unknown/scenarios/17_Dawn_of_the_Great_War.cfg:61 ./Invasion_from_the_Unknown/scenarios/18_Armageddon.cfg:23 ./Invasion_from_the_Unknown/scenarios/19_Legend_of_Wesmere.cfg:36 ./Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:34 ./Invasion_from_the_Unknown/scenarios/20x_The_Plot.cfg:21 ./Invasion_from_the_Unknown/scenarios/21_The_Heart.cfg:45 ./Invasion_from_the_Unknown/scenarios/22A_Innuendo.cfg:33 ./Invasion_from_the_Unknown/scenarios/22B_Face_of_the_Enemy.cfg:30 ./Invasion_from_the_Unknown/scenarios/22C_Dark_Hive.cfg:32 ./Invasion_from_the_Unknown/scenarios/23A_Frozen_Hell.cfg:55 ./Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair.cfg:32 ./Invasion_from_the_Unknown/scenarios/23Bx_Agony_of_Body_and_Soul.cfg:19 ./Invasion_from_the_Unknown/scenarios/23By_Broken_Heart.cfg:21 ./Invasion_from_the_Unknown/scenarios/23C_Broken_Heart.cfg:30 ./Invasion_from_the_Unknown/scenarios/23Cx_Finale.cfg:20 ./Invasion_from_the_Unknown/scenarios/24_Epilogue.cfg:24 ./Invasion_from_the_Unknown/scenarios/arenas/23B_01.cfg:25
 msgid "Galas"
 msgstr ""
 
+#. [side]: id=Galas, type=Elvish Fighter
+#. [side]: type=Elvish Fighter, id=Galas
 #. [side]: type=Elvish Hero, id=Galas
 #. [side]: type=Elvish Lord, id=Lédinor
-#. [side]: type=Elvish Fighter, id=Galas
-#. [side]: id=Galas, type=Elvish Fighter
-#: ./Invasion_from_the_Unknown/scenarios/13x_Inter.cfg:67 ./Invasion_from_the_Unknown/scenarios/04_Over_the_Sands.cfg:54 ./Invasion_from_the_Unknown/scenarios/08_Errand_of_Hope.cfg:28 ./Invasion_from_the_Unknown/scenarios/13_Face_your_Fate.cfg:27 ./Invasion_from_the_Unknown/scenarios/07_The_Elf_and_Goliath.cfg:28 ./Invasion_from_the_Unknown/scenarios/03_Memories_from_the_Depths.cfg:28 ./Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:62 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:29 ./Invasion_from_the_Unknown/scenarios/02_A_Real_Confrontation.cfg:43 ./Invasion_from_the_Unknown/scenarios/02_A_Real_Confrontation.cfg:71 ./Invasion_from_the_Unknown/scenarios/05a_Crossfire.cfg:49 ./Invasion_from_the_Unknown/scenarios/01_Border_Patrol.cfg:58 ./Invasion_from_the_Unknown/scenarios/14_Bye_and_Behold.cfg:40 ./Invasion_from_the_Unknown/scenarios/06_The_Moon_Valley.cfg:47 ./Invasion_from_the_Unknown/scenarios/11_Strike_on_New_Knalga.cfg:31 ./Invasion_from_the_Unknown/scenarios/09_The_Library.cfg:31 ./Invasion_from_the_Unknown/scenarios/05b_Cursed_Plateau.cfg:50
+#: ./Invasion_from_the_Unknown/scenarios/01_Border_Patrol.cfg:58 ./Invasion_from_the_Unknown/scenarios/02_A_Real_Confrontation.cfg:43 ./Invasion_from_the_Unknown/scenarios/02_A_Real_Confrontation.cfg:71 ./Invasion_from_the_Unknown/scenarios/03_Memories_from_the_Depths.cfg:28 ./Invasion_from_the_Unknown/scenarios/04_Over_the_Sands.cfg:54 ./Invasion_from_the_Unknown/scenarios/05a_Crossfire.cfg:49 ./Invasion_from_the_Unknown/scenarios/05b_Cursed_Plateau.cfg:50 ./Invasion_from_the_Unknown/scenarios/06_The_Moon_Valley.cfg:47 ./Invasion_from_the_Unknown/scenarios/07_The_Elf_and_Goliath.cfg:28 ./Invasion_from_the_Unknown/scenarios/08_Errand_of_Hope.cfg:28 ./Invasion_from_the_Unknown/scenarios/09_The_Library.cfg:31 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:29 ./Invasion_from_the_Unknown/scenarios/11_Strike_on_New_Knalga.cfg:31 ./Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:62 ./Invasion_from_the_Unknown/scenarios/13_Face_your_Fate.cfg:27 ./Invasion_from_the_Unknown/scenarios/13x_Inter.cfg:67 ./Invasion_from_the_Unknown/scenarios/14_Bye_and_Behold.cfg:40
 msgid "team_name^Elves"
 msgstr ""
 
@@ -1593,12 +1593,12 @@ msgstr ""
 msgid "Surhan"
 msgstr ""
 
-#. [side]: type=Chaos Heavy Longbowman, id=Vor Mègwyn
-#. [side]: type=Iron Mauler, id=Kagwlen the Hulk
-#. [side]: type=Chaos Razerman, id=Jurdaan
-#. [side]: type=Chaos Advanced Crossbowman, id=Surhan
 #. [side]: id=Grumnyr, type=Doom Guard
-#: ./Invasion_from_the_Unknown/scenarios/02_A_Real_Confrontation.cfg:123 ./Invasion_from_the_Unknown/scenarios/02_A_Real_Confrontation.cfg:150 ./Invasion_from_the_Unknown/scenarios/02_A_Real_Confrontation.cfg:175 ./Invasion_from_the_Unknown/scenarios/01_Border_Patrol.cfg:73 ./Invasion_from_the_Unknown/scenarios/01_Border_Patrol.cfg:95
+#. [side]: type=Chaos Advanced Crossbowman, id=Surhan
+#. [side]: type=Chaos Heavy Longbowman, id=Vor Mègwyn
+#. [side]: type=Chaos Razerman, id=Jurdaan
+#. [side]: type=Iron Mauler, id=Kagwlen the Hulk
+#: ./Invasion_from_the_Unknown/scenarios/01_Border_Patrol.cfg:73 ./Invasion_from_the_Unknown/scenarios/01_Border_Patrol.cfg:95 ./Invasion_from_the_Unknown/scenarios/02_A_Real_Confrontation.cfg:123 ./Invasion_from_the_Unknown/scenarios/02_A_Real_Confrontation.cfg:150 ./Invasion_from_the_Unknown/scenarios/02_A_Real_Confrontation.cfg:175
 msgid "team_name^Humans"
 msgstr ""
 
@@ -1618,7 +1618,7 @@ msgid "Hold out as long as possible."
 msgstr ""
 
 #. [objectives]
-#: ./Invasion_from_the_Unknown/scenarios/22B_Face_of_the_Enemy.cfg:287 ./Invasion_from_the_Unknown/scenarios/22B_Face_of_the_Enemy.cfg:702 ./Invasion_from_the_Unknown/scenarios/22B_Face_of_the_Enemy.cfg:905 ./Invasion_from_the_Unknown/scenarios/22B_Face_of_the_Enemy.cfg:928 ./Invasion_from_the_Unknown/scenarios/22B_Face_of_the_Enemy.cfg:1154 ./Invasion_from_the_Unknown/scenarios/04_Over_the_Sands.cfg:383 ./Invasion_from_the_Unknown/scenarios/04_Over_the_Sands.cfg:1000 ./Invasion_from_the_Unknown/scenarios/04_Over_the_Sands.cfg:1109 ./Invasion_from_the_Unknown/scenarios/08_Errand_of_Hope.cfg:293 ./Invasion_from_the_Unknown/scenarios/08_Errand_of_Hope.cfg:811 ./Invasion_from_the_Unknown/scenarios/22A_Innuendo.cfg:436 ./Invasion_from_the_Unknown/scenarios/22A_Innuendo.cfg:557 ./Invasion_from_the_Unknown/scenarios/22A_Innuendo.cfg:653 ./Invasion_from_the_Unknown/scenarios/22A_Innuendo.cfg:1411 ./Invasion_from_the_Unknown/scenarios/07_The_Elf_and_Goliath.cfg:310 ./Invasion_from_the_Unknown/scenarios/07_The_Elf_and_Goliath.cfg:815 ./Invasion_from_the_Unknown/scenarios/03_Memories_from_the_Depths.cfg:175 ./Invasion_from_the_Unknown/scenarios/03_Memories_from_the_Depths.cfg:252 ./Invasion_from_the_Unknown/scenarios/03_Memories_from_the_Depths.cfg:307 ./Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:24 ./Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:355 ./Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:457 ./Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:590 ./Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:662 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:323 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:430 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:515 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:846 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:881 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:993 ./Invasion_from_the_Unknown/scenarios/02_A_Real_Confrontation.cfg:240 ./Invasion_from_the_Unknown/scenarios/05a_Crossfire.cfg:209 ./Invasion_from_the_Unknown/scenarios/01_Border_Patrol.cfg:167 ./Invasion_from_the_Unknown/scenarios/01_Border_Patrol.cfg:265 ./Invasion_from_the_Unknown/scenarios/23A_Frozen_Hell.cfg:289 ./Invasion_from_the_Unknown/scenarios/14_Bye_and_Behold.cfg:213 ./Invasion_from_the_Unknown/scenarios/18_Armageddon.cfg:143 ./Invasion_from_the_Unknown/scenarios/15_Shadows_of_Time.cfg:205 ./Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair/chimera_fight.cfg:24 ./Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair/chimera_fight.cfg:56 ./Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair/chimera_fight.cfg:107 ./Invasion_from_the_Unknown/scenarios/16_Arrival_of_the_Battalion.cfg:194 ./Invasion_from_the_Unknown/scenarios/22C_Dark_Hive.cfg:361 ./Invasion_from_the_Unknown/scenarios/23C_Broken_Heart.cfg:155 ./Invasion_from_the_Unknown/scenarios/23C_Broken_Heart.cfg:644 ./Invasion_from_the_Unknown/scenarios/23C_Broken_Heart.cfg:702 ./Invasion_from_the_Unknown/scenarios/06_The_Moon_Valley.cfg:208 ./Invasion_from_the_Unknown/scenarios/arenas/23B_01/battle.cfg:433 ./Invasion_from_the_Unknown/scenarios/arenas/23B_01/battle.cfg:501 ./Invasion_from_the_Unknown/scenarios/arenas/23B_01.cfg:47 ./Invasion_from_the_Unknown/scenarios/19_Legend_of_Wesmere.cfg:135 ./Invasion_from_the_Unknown/scenarios/19_Legend_of_Wesmere.cfg:393 ./Invasion_from_the_Unknown/scenarios/19_Legend_of_Wesmere.cfg:413 ./Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:314 ./Invasion_from_the_Unknown/scenarios/11_Strike_on_New_Knalga.cfg:306 ./Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair.cfg:85 ./Invasion_from_the_Unknown/scenarios/21_The_Heart.cfg:481 ./Invasion_from_the_Unknown/scenarios/21_The_Heart.cfg:502 ./Invasion_from_the_Unknown/scenarios/09_The_Library.cfg:289 ./Invasion_from_the_Unknown/scenarios/09_The_Library.cfg:336 ./Invasion_from_the_Unknown/scenarios/17_Dawn_of_the_Great_War.cfg:374 ./Invasion_from_the_Unknown/scenarios/17_Dawn_of_the_Great_War.cfg:560 ./Invasion_from_the_Unknown/scenarios/17_Dawn_of_the_Great_War.cfg:574 ./Invasion_from_the_Unknown/scenarios/05b_Cursed_Plateau.cfg:108
+#: ./Invasion_from_the_Unknown/scenarios/01_Border_Patrol.cfg:167 ./Invasion_from_the_Unknown/scenarios/01_Border_Patrol.cfg:265 ./Invasion_from_the_Unknown/scenarios/02_A_Real_Confrontation.cfg:240 ./Invasion_from_the_Unknown/scenarios/03_Memories_from_the_Depths.cfg:175 ./Invasion_from_the_Unknown/scenarios/03_Memories_from_the_Depths.cfg:252 ./Invasion_from_the_Unknown/scenarios/03_Memories_from_the_Depths.cfg:307 ./Invasion_from_the_Unknown/scenarios/04_Over_the_Sands.cfg:383 ./Invasion_from_the_Unknown/scenarios/04_Over_the_Sands.cfg:1000 ./Invasion_from_the_Unknown/scenarios/04_Over_the_Sands.cfg:1109 ./Invasion_from_the_Unknown/scenarios/05a_Crossfire.cfg:209 ./Invasion_from_the_Unknown/scenarios/05b_Cursed_Plateau.cfg:108 ./Invasion_from_the_Unknown/scenarios/06_The_Moon_Valley.cfg:208 ./Invasion_from_the_Unknown/scenarios/07_The_Elf_and_Goliath.cfg:310 ./Invasion_from_the_Unknown/scenarios/07_The_Elf_and_Goliath.cfg:815 ./Invasion_from_the_Unknown/scenarios/08_Errand_of_Hope.cfg:293 ./Invasion_from_the_Unknown/scenarios/08_Errand_of_Hope.cfg:811 ./Invasion_from_the_Unknown/scenarios/09_The_Library.cfg:289 ./Invasion_from_the_Unknown/scenarios/09_The_Library.cfg:336 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:323 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:430 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:515 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:846 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:881 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:993 ./Invasion_from_the_Unknown/scenarios/11_Strike_on_New_Knalga.cfg:306 ./Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:24 ./Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:355 ./Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:457 ./Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:590 ./Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:662 ./Invasion_from_the_Unknown/scenarios/14_Bye_and_Behold.cfg:213 ./Invasion_from_the_Unknown/scenarios/15_Shadows_of_Time.cfg:205 ./Invasion_from_the_Unknown/scenarios/16_Arrival_of_the_Battalion.cfg:194 ./Invasion_from_the_Unknown/scenarios/17_Dawn_of_the_Great_War.cfg:374 ./Invasion_from_the_Unknown/scenarios/17_Dawn_of_the_Great_War.cfg:560 ./Invasion_from_the_Unknown/scenarios/17_Dawn_of_the_Great_War.cfg:574 ./Invasion_from_the_Unknown/scenarios/18_Armageddon.cfg:143 ./Invasion_from_the_Unknown/scenarios/19_Legend_of_Wesmere.cfg:135 ./Invasion_from_the_Unknown/scenarios/19_Legend_of_Wesmere.cfg:393 ./Invasion_from_the_Unknown/scenarios/19_Legend_of_Wesmere.cfg:413 ./Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:314 ./Invasion_from_the_Unknown/scenarios/21_The_Heart.cfg:481 ./Invasion_from_the_Unknown/scenarios/21_The_Heart.cfg:502 ./Invasion_from_the_Unknown/scenarios/22A_Innuendo.cfg:436 ./Invasion_from_the_Unknown/scenarios/22A_Innuendo.cfg:557 ./Invasion_from_the_Unknown/scenarios/22A_Innuendo.cfg:653 ./Invasion_from_the_Unknown/scenarios/22A_Innuendo.cfg:1411 ./Invasion_from_the_Unknown/scenarios/22B_Face_of_the_Enemy.cfg:287 ./Invasion_from_the_Unknown/scenarios/22B_Face_of_the_Enemy.cfg:702 ./Invasion_from_the_Unknown/scenarios/22B_Face_of_the_Enemy.cfg:905 ./Invasion_from_the_Unknown/scenarios/22B_Face_of_the_Enemy.cfg:928 ./Invasion_from_the_Unknown/scenarios/22B_Face_of_the_Enemy.cfg:1154 ./Invasion_from_the_Unknown/scenarios/22C_Dark_Hive.cfg:361 ./Invasion_from_the_Unknown/scenarios/23A_Frozen_Hell.cfg:289 ./Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair.cfg:85 ./Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair/chimera_fight.cfg:24 ./Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair/chimera_fight.cfg:56 ./Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair/chimera_fight.cfg:107 ./Invasion_from_the_Unknown/scenarios/23C_Broken_Heart.cfg:155 ./Invasion_from_the_Unknown/scenarios/23C_Broken_Heart.cfg:644 ./Invasion_from_the_Unknown/scenarios/23C_Broken_Heart.cfg:702 ./Invasion_from_the_Unknown/scenarios/arenas/23B_01.cfg:47 ./Invasion_from_the_Unknown/scenarios/arenas/23B_01/battle.cfg:433 ./Invasion_from_the_Unknown/scenarios/arenas/23B_01/battle.cfg:501
 msgid "Death of Galas"
 msgstr ""
 
@@ -1662,13 +1662,13 @@ msgstr ""
 msgid "The Law says that we should always grant refuge to wanderers. But I think I sense hostility from this group. In any case, let us wait before doing anything."
 msgstr ""
 
-#. [message]: speaker=Mal Keshar
-#. [message]: speaker=Galas
-#. [message]: speaker=unit
-#. [message]: role=a2
 #. [message]
+#. [message]: role=a2
 #. [message]: speaker=Elynia
-#: ./Invasion_from_the_Unknown/scenarios/04_Over_the_Sands.cfg:1646 ./Invasion_from_the_Unknown/scenarios/08_Errand_of_Hope.cfg:804 ./Invasion_from_the_Unknown/scenarios/07_The_Elf_and_Goliath.cfg:414 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:2356 ./Invasion_from_the_Unknown/scenarios/05a_Crossfire.cfg:313 ./Invasion_from_the_Unknown/scenarios/05a_Crossfire.cfg:327 ./Invasion_from_the_Unknown/scenarios/01_Border_Patrol.cfg:230 ./Invasion_from_the_Unknown/scenarios/16_Arrival_of_the_Battalion.cfg:382 ./Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:413
+#. [message]: speaker=Galas
+#. [message]: speaker=Mal Keshar
+#. [message]: speaker=unit
+#: ./Invasion_from_the_Unknown/scenarios/01_Border_Patrol.cfg:230 ./Invasion_from_the_Unknown/scenarios/04_Over_the_Sands.cfg:1646 ./Invasion_from_the_Unknown/scenarios/05a_Crossfire.cfg:313 ./Invasion_from_the_Unknown/scenarios/05a_Crossfire.cfg:327 ./Invasion_from_the_Unknown/scenarios/07_The_Elf_and_Goliath.cfg:414 ./Invasion_from_the_Unknown/scenarios/08_Errand_of_Hope.cfg:804 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:2356 ./Invasion_from_the_Unknown/scenarios/16_Arrival_of_the_Battalion.cfg:382 ./Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:413
 msgid "Very well."
 msgstr ""
 
@@ -1712,10 +1712,10 @@ msgstr ""
 msgid "A Real Confrontation"
 msgstr ""
 
-#. [unit]: type=Elvish Lord, id=Lédinor
 #. [side]: type=Elvish Lord, id=Lédinor
+#. [unit]: type=Elvish Lord, id=Lédinor
 #. [unit]: type=Shadow Courier, id=Corrupted Lédinor
-#: ./Invasion_from_the_Unknown/scenarios/22A_Innuendo.cfg:600 ./Invasion_from_the_Unknown/scenarios/02_A_Real_Confrontation.cfg:49 ./Invasion_from_the_Unknown/scenarios/23C_Broken_Heart.cfg:598
+#: ./Invasion_from_the_Unknown/scenarios/02_A_Real_Confrontation.cfg:49 ./Invasion_from_the_Unknown/scenarios/22A_Innuendo.cfg:600 ./Invasion_from_the_Unknown/scenarios/23C_Broken_Heart.cfg:598
 msgid "Lédinor"
 msgstr ""
 
@@ -1755,12 +1755,12 @@ msgid "Defeat all enemy leaders. (Heroic bonus)"
 msgstr ""
 
 #. [objectives]
-#: ./Invasion_from_the_Unknown/scenarios/22B_Face_of_the_Enemy.cfg:290 ./Invasion_from_the_Unknown/scenarios/22B_Face_of_the_Enemy.cfg:705 ./Invasion_from_the_Unknown/scenarios/22B_Face_of_the_Enemy.cfg:908 ./Invasion_from_the_Unknown/scenarios/22B_Face_of_the_Enemy.cfg:931 ./Invasion_from_the_Unknown/scenarios/22B_Face_of_the_Enemy.cfg:1157 ./Invasion_from_the_Unknown/scenarios/22A_Innuendo.cfg:560 ./Invasion_from_the_Unknown/scenarios/22A_Innuendo.cfg:656 ./Invasion_from_the_Unknown/scenarios/02_A_Real_Confrontation.cfg:239 ./Invasion_from_the_Unknown/scenarios/23A_Frozen_Hell.cfg:292 ./Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair/chimera_fight.cfg:28 ./Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair/chimera_fight.cfg:60 ./Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair/chimera_fight.cfg:110 ./Invasion_from_the_Unknown/scenarios/22C_Dark_Hive.cfg:364 ./Invasion_from_the_Unknown/scenarios/23C_Broken_Heart.cfg:158 ./Invasion_from_the_Unknown/scenarios/arenas/23B_01/battle.cfg:436 ./Invasion_from_the_Unknown/scenarios/arenas/23B_01/battle.cfg:504 ./Invasion_from_the_Unknown/scenarios/arenas/23B_01.cfg:50 ./Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair.cfg:88
+#: ./Invasion_from_the_Unknown/scenarios/02_A_Real_Confrontation.cfg:239 ./Invasion_from_the_Unknown/scenarios/22A_Innuendo.cfg:560 ./Invasion_from_the_Unknown/scenarios/22A_Innuendo.cfg:656 ./Invasion_from_the_Unknown/scenarios/22B_Face_of_the_Enemy.cfg:290 ./Invasion_from_the_Unknown/scenarios/22B_Face_of_the_Enemy.cfg:705 ./Invasion_from_the_Unknown/scenarios/22B_Face_of_the_Enemy.cfg:908 ./Invasion_from_the_Unknown/scenarios/22B_Face_of_the_Enemy.cfg:931 ./Invasion_from_the_Unknown/scenarios/22B_Face_of_the_Enemy.cfg:1157 ./Invasion_from_the_Unknown/scenarios/22C_Dark_Hive.cfg:364 ./Invasion_from_the_Unknown/scenarios/23A_Frozen_Hell.cfg:292 ./Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair.cfg:88 ./Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair/chimera_fight.cfg:28 ./Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair/chimera_fight.cfg:60 ./Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair/chimera_fight.cfg:110 ./Invasion_from_the_Unknown/scenarios/23C_Broken_Heart.cfg:158 ./Invasion_from_the_Unknown/scenarios/arenas/23B_01.cfg:50 ./Invasion_from_the_Unknown/scenarios/arenas/23B_01/battle.cfg:436 ./Invasion_from_the_Unknown/scenarios/arenas/23B_01/battle.cfg:504
 msgid "Death of Lédinor"
 msgstr ""
 
 #. [objectives]
-#: ./Invasion_from_the_Unknown/scenarios/04_Over_the_Sands.cfg:384 ./Invasion_from_the_Unknown/scenarios/04_Over_the_Sands.cfg:1001 ./Invasion_from_the_Unknown/scenarios/04_Over_the_Sands.cfg:1110 ./Invasion_from_the_Unknown/scenarios/08_Errand_of_Hope.cfg:294 ./Invasion_from_the_Unknown/scenarios/08_Errand_of_Hope.cfg:812 ./Invasion_from_the_Unknown/scenarios/07_The_Elf_and_Goliath.cfg:311 ./Invasion_from_the_Unknown/scenarios/07_The_Elf_and_Goliath.cfg:816 ./Invasion_from_the_Unknown/scenarios/03_Memories_from_the_Depths.cfg:176 ./Invasion_from_the_Unknown/scenarios/03_Memories_from_the_Depths.cfg:253 ./Invasion_from_the_Unknown/scenarios/03_Memories_from_the_Depths.cfg:308 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:324 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:431 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:516 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:847 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:882 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:994 ./Invasion_from_the_Unknown/scenarios/02_A_Real_Confrontation.cfg:241 ./Invasion_from_the_Unknown/scenarios/05a_Crossfire.cfg:210 ./Invasion_from_the_Unknown/scenarios/06_The_Moon_Valley.cfg:209 ./Invasion_from_the_Unknown/scenarios/11_Strike_on_New_Knalga.cfg:310 ./Invasion_from_the_Unknown/scenarios/09_The_Library.cfg:290 ./Invasion_from_the_Unknown/scenarios/09_The_Library.cfg:337 ./Invasion_from_the_Unknown/scenarios/05b_Cursed_Plateau.cfg:109
+#: ./Invasion_from_the_Unknown/scenarios/02_A_Real_Confrontation.cfg:241 ./Invasion_from_the_Unknown/scenarios/03_Memories_from_the_Depths.cfg:176 ./Invasion_from_the_Unknown/scenarios/03_Memories_from_the_Depths.cfg:253 ./Invasion_from_the_Unknown/scenarios/03_Memories_from_the_Depths.cfg:308 ./Invasion_from_the_Unknown/scenarios/04_Over_the_Sands.cfg:384 ./Invasion_from_the_Unknown/scenarios/04_Over_the_Sands.cfg:1001 ./Invasion_from_the_Unknown/scenarios/04_Over_the_Sands.cfg:1110 ./Invasion_from_the_Unknown/scenarios/05a_Crossfire.cfg:210 ./Invasion_from_the_Unknown/scenarios/05b_Cursed_Plateau.cfg:109 ./Invasion_from_the_Unknown/scenarios/06_The_Moon_Valley.cfg:209 ./Invasion_from_the_Unknown/scenarios/07_The_Elf_and_Goliath.cfg:311 ./Invasion_from_the_Unknown/scenarios/07_The_Elf_and_Goliath.cfg:816 ./Invasion_from_the_Unknown/scenarios/08_Errand_of_Hope.cfg:294 ./Invasion_from_the_Unknown/scenarios/08_Errand_of_Hope.cfg:812 ./Invasion_from_the_Unknown/scenarios/09_The_Library.cfg:290 ./Invasion_from_the_Unknown/scenarios/09_The_Library.cfg:337 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:324 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:431 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:516 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:847 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:882 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:994 ./Invasion_from_the_Unknown/scenarios/11_Strike_on_New_Knalga.cfg:310
 msgid "Death of Anlindë"
 msgstr ""
 
@@ -1944,9 +1944,9 @@ msgstr ""
 msgid "I fear we have no other alternative left. Unless you civilians think it a better course to stand and fight to our death, and be expunged from the green world without trace?"
 msgstr ""
 
-#. [unit_type]: id=Elvish Civilian, race=elf
 #. [message]: speaker=narrator
-#: ./Invasion_from_the_Unknown/units/elves-wood/Civilian.cfg:5 ./Invasion_from_the_Unknown/scenarios/02_A_Real_Confrontation.cfg:591
+#. [unit_type]: id=Elvish Civilian, race=elf
+#: ./Invasion_from_the_Unknown/scenarios/02_A_Real_Confrontation.cfg:591 ./Invasion_from_the_Unknown/units/elves-wood/Civilian.cfg:5
 msgid "Elvish Civilian"
 msgstr ""
 
@@ -2157,7 +2157,7 @@ msgid "Your kind has tried numerous times to vanquish me, but you cannot. I am m
 msgstr ""
 
 #. [message]: speaker=Galas
-#: ./Invasion_from_the_Unknown/scenarios/08_Errand_of_Hope.cfg:776 ./Invasion_from_the_Unknown/scenarios/03_Memories_from_the_Depths.cfg:288
+#: ./Invasion_from_the_Unknown/scenarios/03_Memories_from_the_Depths.cfg:288 ./Invasion_from_the_Unknown/scenarios/08_Errand_of_Hope.cfg:776
 msgid "Anlindë?"
 msgstr ""
 
@@ -2211,12 +2211,12 @@ msgstr ""
 msgid "Aye, and my thirst for orcish death will never be satisfied. For I can no longer go to the surface now that the land is under the control of the forces of Evil."
 msgstr ""
 
-#. [message]: speaker=boss2
 #. [message]: speaker=Anlindë
-#. [message]: speaker=Galas
-#. [message]: speaker=Erathan
 #. [message]: speaker=Elynia
-#: ./Invasion_from_the_Unknown/scenarios/13_Face_your_Fate.cfg:512 ./Invasion_from_the_Unknown/scenarios/03_Memories_from_the_Depths.cfg:415 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:1443 ./Invasion_from_the_Unknown/scenarios/14_Bye_and_Behold.cfg:556 ./Invasion_from_the_Unknown/scenarios/16_Arrival_of_the_Battalion.cfg:292 ./Invasion_from_the_Unknown/scenarios/23Bx_Agony_of_Body_and_Soul.cfg:144
+#. [message]: speaker=Erathan
+#. [message]: speaker=Galas
+#. [message]: speaker=boss2
+#: ./Invasion_from_the_Unknown/scenarios/03_Memories_from_the_Depths.cfg:415 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:1443 ./Invasion_from_the_Unknown/scenarios/13_Face_your_Fate.cfg:512 ./Invasion_from_the_Unknown/scenarios/14_Bye_and_Behold.cfg:556 ./Invasion_from_the_Unknown/scenarios/16_Arrival_of_the_Battalion.cfg:292 ./Invasion_from_the_Unknown/scenarios/23Bx_Agony_of_Body_and_Soul.cfg:144
 msgid "What?"
 msgstr ""
 
@@ -2396,7 +2396,7 @@ msgid "ACME SignPost™ Serial Number: 91MM3159XAAG021:K314"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ./Invasion_from_the_Unknown/scenarios/07_The_Elf_and_Goliath.cfg:552 ./Invasion_from_the_Unknown/scenarios/07_The_Elf_and_Goliath.cfg:650 ./Invasion_from_the_Unknown/scenarios/07_The_Elf_and_Goliath.cfg:729 ./Invasion_from_the_Unknown/scenarios/03_Memories_from_the_Depths.cfg:624 ./Invasion_from_the_Unknown/scenarios/03_Memories_from_the_Depths.cfg:650 ./Invasion_from_the_Unknown/scenarios/03_Memories_from_the_Depths.cfg:672
+#: ./Invasion_from_the_Unknown/scenarios/03_Memories_from_the_Depths.cfg:624 ./Invasion_from_the_Unknown/scenarios/03_Memories_from_the_Depths.cfg:650 ./Invasion_from_the_Unknown/scenarios/03_Memories_from_the_Depths.cfg:672 ./Invasion_from_the_Unknown/scenarios/07_The_Elf_and_Goliath.cfg:552 ./Invasion_from_the_Unknown/scenarios/07_The_Elf_and_Goliath.cfg:650 ./Invasion_from_the_Unknown/scenarios/07_The_Elf_and_Goliath.cfg:729
 msgid "Touchplate triggered. A wall moves."
 msgstr ""
 
@@ -2466,7 +2466,7 @@ msgid "Galas, Anlindë, or Mal Keshar must reach the northwest border of the map
 msgstr ""
 
 #. [objectives]
-#: ./Invasion_from_the_Unknown/scenarios/22B_Face_of_the_Enemy.cfg:289 ./Invasion_from_the_Unknown/scenarios/22B_Face_of_the_Enemy.cfg:704 ./Invasion_from_the_Unknown/scenarios/22B_Face_of_the_Enemy.cfg:907 ./Invasion_from_the_Unknown/scenarios/22B_Face_of_the_Enemy.cfg:930 ./Invasion_from_the_Unknown/scenarios/22B_Face_of_the_Enemy.cfg:1156 ./Invasion_from_the_Unknown/scenarios/04_Over_the_Sands.cfg:385 ./Invasion_from_the_Unknown/scenarios/04_Over_the_Sands.cfg:1002 ./Invasion_from_the_Unknown/scenarios/04_Over_the_Sands.cfg:1111 ./Invasion_from_the_Unknown/scenarios/08_Errand_of_Hope.cfg:295 ./Invasion_from_the_Unknown/scenarios/08_Errand_of_Hope.cfg:813 ./Invasion_from_the_Unknown/scenarios/22A_Innuendo.cfg:438 ./Invasion_from_the_Unknown/scenarios/22A_Innuendo.cfg:559 ./Invasion_from_the_Unknown/scenarios/22A_Innuendo.cfg:655 ./Invasion_from_the_Unknown/scenarios/22A_Innuendo.cfg:1413 ./Invasion_from_the_Unknown/scenarios/07_The_Elf_and_Goliath.cfg:312 ./Invasion_from_the_Unknown/scenarios/07_The_Elf_and_Goliath.cfg:817 ./Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:26 ./Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:357 ./Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:459 ./Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:592 ./Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:664 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:325 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:432 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:517 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:848 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:883 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:995 ./Invasion_from_the_Unknown/scenarios/05a_Crossfire.cfg:211 ./Invasion_from_the_Unknown/scenarios/23A_Frozen_Hell.cfg:291 ./Invasion_from_the_Unknown/scenarios/14_Bye_and_Behold.cfg:215 ./Invasion_from_the_Unknown/scenarios/18_Armageddon.cfg:145 ./Invasion_from_the_Unknown/scenarios/15_Shadows_of_Time.cfg:207 ./Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair/chimera_fight.cfg:27 ./Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair/chimera_fight.cfg:59 ./Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair/chimera_fight.cfg:109 ./Invasion_from_the_Unknown/scenarios/16_Arrival_of_the_Battalion.cfg:196 ./Invasion_from_the_Unknown/scenarios/22C_Dark_Hive.cfg:363 ./Invasion_from_the_Unknown/scenarios/23C_Broken_Heart.cfg:157 ./Invasion_from_the_Unknown/scenarios/23C_Broken_Heart.cfg:646 ./Invasion_from_the_Unknown/scenarios/23C_Broken_Heart.cfg:704 ./Invasion_from_the_Unknown/scenarios/06_The_Moon_Valley.cfg:210 ./Invasion_from_the_Unknown/scenarios/arenas/23B_01/battle.cfg:435 ./Invasion_from_the_Unknown/scenarios/arenas/23B_01/battle.cfg:503 ./Invasion_from_the_Unknown/scenarios/arenas/23B_01.cfg:49 ./Invasion_from_the_Unknown/scenarios/19_Legend_of_Wesmere.cfg:137 ./Invasion_from_the_Unknown/scenarios/19_Legend_of_Wesmere.cfg:395 ./Invasion_from_the_Unknown/scenarios/19_Legend_of_Wesmere.cfg:415 ./Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:316 ./Invasion_from_the_Unknown/scenarios/11_Strike_on_New_Knalga.cfg:309 ./Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair.cfg:87 ./Invasion_from_the_Unknown/scenarios/21_The_Heart.cfg:483 ./Invasion_from_the_Unknown/scenarios/21_The_Heart.cfg:504 ./Invasion_from_the_Unknown/scenarios/09_The_Library.cfg:291 ./Invasion_from_the_Unknown/scenarios/09_The_Library.cfg:338 ./Invasion_from_the_Unknown/scenarios/17_Dawn_of_the_Great_War.cfg:562 ./Invasion_from_the_Unknown/scenarios/17_Dawn_of_the_Great_War.cfg:576 ./Invasion_from_the_Unknown/scenarios/05b_Cursed_Plateau.cfg:110
+#: ./Invasion_from_the_Unknown/scenarios/04_Over_the_Sands.cfg:385 ./Invasion_from_the_Unknown/scenarios/04_Over_the_Sands.cfg:1002 ./Invasion_from_the_Unknown/scenarios/04_Over_the_Sands.cfg:1111 ./Invasion_from_the_Unknown/scenarios/05a_Crossfire.cfg:211 ./Invasion_from_the_Unknown/scenarios/05b_Cursed_Plateau.cfg:110 ./Invasion_from_the_Unknown/scenarios/06_The_Moon_Valley.cfg:210 ./Invasion_from_the_Unknown/scenarios/07_The_Elf_and_Goliath.cfg:312 ./Invasion_from_the_Unknown/scenarios/07_The_Elf_and_Goliath.cfg:817 ./Invasion_from_the_Unknown/scenarios/08_Errand_of_Hope.cfg:295 ./Invasion_from_the_Unknown/scenarios/08_Errand_of_Hope.cfg:813 ./Invasion_from_the_Unknown/scenarios/09_The_Library.cfg:291 ./Invasion_from_the_Unknown/scenarios/09_The_Library.cfg:338 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:325 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:432 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:517 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:848 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:883 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:995 ./Invasion_from_the_Unknown/scenarios/11_Strike_on_New_Knalga.cfg:309 ./Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:26 ./Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:357 ./Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:459 ./Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:592 ./Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:664 ./Invasion_from_the_Unknown/scenarios/14_Bye_and_Behold.cfg:215 ./Invasion_from_the_Unknown/scenarios/15_Shadows_of_Time.cfg:207 ./Invasion_from_the_Unknown/scenarios/16_Arrival_of_the_Battalion.cfg:196 ./Invasion_from_the_Unknown/scenarios/17_Dawn_of_the_Great_War.cfg:562 ./Invasion_from_the_Unknown/scenarios/17_Dawn_of_the_Great_War.cfg:576 ./Invasion_from_the_Unknown/scenarios/18_Armageddon.cfg:145 ./Invasion_from_the_Unknown/scenarios/19_Legend_of_Wesmere.cfg:137 ./Invasion_from_the_Unknown/scenarios/19_Legend_of_Wesmere.cfg:395 ./Invasion_from_the_Unknown/scenarios/19_Legend_of_Wesmere.cfg:415 ./Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:316 ./Invasion_from_the_Unknown/scenarios/21_The_Heart.cfg:483 ./Invasion_from_the_Unknown/scenarios/21_The_Heart.cfg:504 ./Invasion_from_the_Unknown/scenarios/22A_Innuendo.cfg:438 ./Invasion_from_the_Unknown/scenarios/22A_Innuendo.cfg:559 ./Invasion_from_the_Unknown/scenarios/22A_Innuendo.cfg:655 ./Invasion_from_the_Unknown/scenarios/22A_Innuendo.cfg:1413 ./Invasion_from_the_Unknown/scenarios/22B_Face_of_the_Enemy.cfg:289 ./Invasion_from_the_Unknown/scenarios/22B_Face_of_the_Enemy.cfg:704 ./Invasion_from_the_Unknown/scenarios/22B_Face_of_the_Enemy.cfg:907 ./Invasion_from_the_Unknown/scenarios/22B_Face_of_the_Enemy.cfg:930 ./Invasion_from_the_Unknown/scenarios/22B_Face_of_the_Enemy.cfg:1156 ./Invasion_from_the_Unknown/scenarios/22C_Dark_Hive.cfg:363 ./Invasion_from_the_Unknown/scenarios/23A_Frozen_Hell.cfg:291 ./Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair.cfg:87 ./Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair/chimera_fight.cfg:27 ./Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair/chimera_fight.cfg:59 ./Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair/chimera_fight.cfg:109 ./Invasion_from_the_Unknown/scenarios/23C_Broken_Heart.cfg:157 ./Invasion_from_the_Unknown/scenarios/23C_Broken_Heart.cfg:646 ./Invasion_from_the_Unknown/scenarios/23C_Broken_Heart.cfg:704 ./Invasion_from_the_Unknown/scenarios/arenas/23B_01.cfg:49 ./Invasion_from_the_Unknown/scenarios/arenas/23B_01/battle.cfg:435 ./Invasion_from_the_Unknown/scenarios/arenas/23B_01/battle.cfg:503
 msgid "Death of Mal Keshar"
 msgstr ""
 
@@ -2705,8 +2705,8 @@ msgstr ""
 msgid "The irony in this is unsettling."
 msgstr ""
 
-#. [message]: speaker=second_unit
 #. [message]: speaker=Anlindë
+#. [message]: speaker=second_unit
 #: ./Invasion_from_the_Unknown/scenarios/04_Over_the_Sands.cfg:1065 ./Invasion_from_the_Unknown/scenarios/04_Over_the_Sands.cfg:1071
 msgid "These bandits seem to have accumulated some gold. It’s not a great amount, but it will do for our needs."
 msgstr ""
@@ -2782,7 +2782,7 @@ msgid "I do not know. It might be a local custom."
 msgstr ""
 
 #. [message]: speaker=Galas
-#: ./Invasion_from_the_Unknown/scenarios/04_Over_the_Sands.cfg:1408 ./Invasion_from_the_Unknown/scenarios/08_Errand_of_Hope.cfg:524 ./Invasion_from_the_Unknown/scenarios/05a_Crossfire.cfg:302
+#: ./Invasion_from_the_Unknown/scenarios/04_Over_the_Sands.cfg:1408 ./Invasion_from_the_Unknown/scenarios/05a_Crossfire.cfg:302 ./Invasion_from_the_Unknown/scenarios/08_Errand_of_Hope.cfg:524
 msgid "Um..."
 msgstr ""
 
@@ -2806,8 +2806,8 @@ msgstr ""
 msgid "I think we’ll just leave for the moment."
 msgstr ""
 
-#. [message]: speaker=Lanya
 #. [message]: speaker=Galas
+#. [message]: speaker=Lanya
 #: ./Invasion_from_the_Unknown/scenarios/04_Over_the_Sands.cfg:1464 ./Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair.cfg:295
 msgid "Very well, then."
 msgstr ""
@@ -2888,12 +2888,12 @@ msgstr ""
 msgid "Jala Nekhar"
 msgstr ""
 
-#. [side]: type=Lich, id=Jala Nekhar
 #. [side]
-#. [side]: type=Death Knight, id=Tanstafaal
-#. [side]: type=Orcish Slurbow, id=Tan Zalfargat
 #. [side]: type=Ancient Lich, id=Mal Hekuba
-#: ./Invasion_from_the_Unknown/scenarios/05a_Crossfire.cfg:86 ./Invasion_from_the_Unknown/scenarios/18_Armageddon.cfg:38 ./Invasion_from_the_Unknown/scenarios/15_Shadows_of_Time.cfg:86 ./Invasion_from_the_Unknown/scenarios/15_Shadows_of_Time.cfg:118 ./Invasion_from_the_Unknown/scenarios/15_Shadows_of_Time.cfg:145
+#. [side]: type=Death Knight, id=Tanstafaal
+#. [side]: type=Lich, id=Jala Nekhar
+#. [side]: type=Orcish Slurbow, id=Tan Zalfargat
+#: ./Invasion_from_the_Unknown/scenarios/05a_Crossfire.cfg:86 ./Invasion_from_the_Unknown/scenarios/15_Shadows_of_Time.cfg:86 ./Invasion_from_the_Unknown/scenarios/15_Shadows_of_Time.cfg:118 ./Invasion_from_the_Unknown/scenarios/15_Shadows_of_Time.cfg:145 ./Invasion_from_the_Unknown/scenarios/18_Armageddon.cfg:38
 msgid "team_name^Undead"
 msgstr ""
 
@@ -2903,25 +2903,25 @@ msgid "Zemkor"
 msgstr ""
 
 #. [side]
-#. [side]: type=Gutwrencher Imp, id=Laveri
-#. [side]: type=Shaxthal Sentry Drone
-#. [side]: type=Chaos Advanced Crossbowman, id=Zemkor
-#. [side]: type=Goliath, id=ZA-K314
-#. [side]: type=Hell Overlord, id=Benthos
-#. [side]: type=Chaos Lorekeeper, id=Darkozun
-#. [side]: type=Psy Mindraider, id=Uzgarphatgshar
-#. [side]: type=Chaos Warlord, id=Elyssa
-#. [side]: type=Chaos Razerman, id=Renan
-#. [side]: id=Armiza'ar, type=Chaos Lorekeeper
-#. [side]: id=Oddis, type=Chaos Soulhunter
-#. [side]: id=Casper, type=Hell Guardian
 #. [side]: id=Alazar, type=Chaos Cataphract
+#. [side]: id=Armiza'ar, type=Chaos Lorekeeper
+#. [side]: id=Casper, type=Hell Guardian
+#. [side]: id=Oddis, type=Chaos Soulhunter
 #. [side]: id=Wygerm, type=Chaos Heavy Longbowman
-#. [side]: type=Hell Overlord, id=Qualshezif
-#. [side]: type=Hell Guardian, id=Limzer
-#. [side]: type=Psy Mindraider, id=Elká
+#. [side]: type=Chaos Advanced Crossbowman, id=Zemkor
+#. [side]: type=Chaos Lorekeeper, id=Darkozun
+#. [side]: type=Chaos Razerman, id=Renan
+#. [side]: type=Chaos Warlord, id=Elyssa
 #. [side]: type=Demon Zephyr, id=Vulcar
-#: ./Invasion_from_the_Unknown/scenarios/22B_Face_of_the_Enemy.cfg:50 ./Invasion_from_the_Unknown/scenarios/22B_Face_of_the_Enemy.cfg:79 ./Invasion_from_the_Unknown/scenarios/08_Errand_of_Hope.cfg:87 ./Invasion_from_the_Unknown/scenarios/08_Errand_of_Hope.cfg:104 ./Invasion_from_the_Unknown/scenarios/13_Face_your_Fate.cfg:39 ./Invasion_from_the_Unknown/scenarios/13_Face_your_Fate.cfg:73 ./Invasion_from_the_Unknown/scenarios/13_Face_your_Fate.cfg:102 ./Invasion_from_the_Unknown/scenarios/13_Face_your_Fate.cfg:111 ./Invasion_from_the_Unknown/scenarios/07_The_Elf_and_Goliath.cfg:39 ./Invasion_from_the_Unknown/scenarios/07_The_Elf_and_Goliath.cfg:52 ./Invasion_from_the_Unknown/scenarios/07_The_Elf_and_Goliath.cfg:90 ./Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:71 ./Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:121 ./Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:137 ./Invasion_from_the_Unknown/scenarios/05a_Crossfire.cfg:134 ./Invasion_from_the_Unknown/scenarios/23A_Frozen_Hell.cfg:112 ./Invasion_from_the_Unknown/scenarios/16_Arrival_of_the_Battalion.cfg:99 ./Invasion_from_the_Unknown/scenarios/16_Arrival_of_the_Battalion.cfg:122 ./Invasion_from_the_Unknown/scenarios/16_Arrival_of_the_Battalion.cfg:147 ./Invasion_from_the_Unknown/scenarios/16_Arrival_of_the_Battalion.cfg:171 ./Invasion_from_the_Unknown/scenarios/22C_Dark_Hive.cfg:52 ./Invasion_from_the_Unknown/scenarios/22C_Dark_Hive.cfg:155 ./Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:55 ./Invasion_from_the_Unknown/scenarios/11_Strike_on_New_Knalga.cfg:117 ./Invasion_from_the_Unknown/scenarios/11_Strike_on_New_Knalga.cfg:159 ./Invasion_from_the_Unknown/scenarios/11_Strike_on_New_Knalga.cfg:175 ./Invasion_from_the_Unknown/scenarios/11_Strike_on_New_Knalga.cfg:192 ./Invasion_from_the_Unknown/scenarios/11_Strike_on_New_Knalga.cfg:236 ./Invasion_from_the_Unknown/scenarios/11_Strike_on_New_Knalga.cfg:246 ./Invasion_from_the_Unknown/scenarios/21_The_Heart.cfg:81 ./Invasion_from_the_Unknown/scenarios/21_The_Heart.cfg:99 ./Invasion_from_the_Unknown/scenarios/21_The_Heart.cfg:115 ./Invasion_from_the_Unknown/scenarios/17_Dawn_of_the_Great_War.cfg:138 ./Invasion_from_the_Unknown/scenarios/17_Dawn_of_the_Great_War.cfg:157 ./Invasion_from_the_Unknown/scenarios/17_Dawn_of_the_Great_War.cfg:175 ./Invasion_from_the_Unknown/scenarios/17_Dawn_of_the_Great_War.cfg:212 ./Invasion_from_the_Unknown/scenarios/05b_Cursed_Plateau.cfg:61 ./Invasion_from_the_Unknown/scenarios/05b_Cursed_Plateau.cfg:81
+#. [side]: type=Goliath, id=ZA-K314
+#. [side]: type=Gutwrencher Imp, id=Laveri
+#. [side]: type=Hell Guardian, id=Limzer
+#. [side]: type=Hell Overlord, id=Benthos
+#. [side]: type=Hell Overlord, id=Qualshezif
+#. [side]: type=Psy Mindraider, id=Elká
+#. [side]: type=Psy Mindraider, id=Uzgarphatgshar
+#. [side]: type=Shaxthal Sentry Drone
+#: ./Invasion_from_the_Unknown/scenarios/05a_Crossfire.cfg:134 ./Invasion_from_the_Unknown/scenarios/05b_Cursed_Plateau.cfg:61 ./Invasion_from_the_Unknown/scenarios/05b_Cursed_Plateau.cfg:81 ./Invasion_from_the_Unknown/scenarios/07_The_Elf_and_Goliath.cfg:39 ./Invasion_from_the_Unknown/scenarios/07_The_Elf_and_Goliath.cfg:52 ./Invasion_from_the_Unknown/scenarios/07_The_Elf_and_Goliath.cfg:90 ./Invasion_from_the_Unknown/scenarios/08_Errand_of_Hope.cfg:87 ./Invasion_from_the_Unknown/scenarios/08_Errand_of_Hope.cfg:104 ./Invasion_from_the_Unknown/scenarios/11_Strike_on_New_Knalga.cfg:117 ./Invasion_from_the_Unknown/scenarios/11_Strike_on_New_Knalga.cfg:159 ./Invasion_from_the_Unknown/scenarios/11_Strike_on_New_Knalga.cfg:175 ./Invasion_from_the_Unknown/scenarios/11_Strike_on_New_Knalga.cfg:192 ./Invasion_from_the_Unknown/scenarios/11_Strike_on_New_Knalga.cfg:236 ./Invasion_from_the_Unknown/scenarios/11_Strike_on_New_Knalga.cfg:246 ./Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:71 ./Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:121 ./Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:137 ./Invasion_from_the_Unknown/scenarios/13_Face_your_Fate.cfg:39 ./Invasion_from_the_Unknown/scenarios/13_Face_your_Fate.cfg:73 ./Invasion_from_the_Unknown/scenarios/13_Face_your_Fate.cfg:102 ./Invasion_from_the_Unknown/scenarios/13_Face_your_Fate.cfg:111 ./Invasion_from_the_Unknown/scenarios/16_Arrival_of_the_Battalion.cfg:99 ./Invasion_from_the_Unknown/scenarios/16_Arrival_of_the_Battalion.cfg:122 ./Invasion_from_the_Unknown/scenarios/16_Arrival_of_the_Battalion.cfg:147 ./Invasion_from_the_Unknown/scenarios/16_Arrival_of_the_Battalion.cfg:171 ./Invasion_from_the_Unknown/scenarios/17_Dawn_of_the_Great_War.cfg:138 ./Invasion_from_the_Unknown/scenarios/17_Dawn_of_the_Great_War.cfg:157 ./Invasion_from_the_Unknown/scenarios/17_Dawn_of_the_Great_War.cfg:175 ./Invasion_from_the_Unknown/scenarios/17_Dawn_of_the_Great_War.cfg:212 ./Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:55 ./Invasion_from_the_Unknown/scenarios/21_The_Heart.cfg:81 ./Invasion_from_the_Unknown/scenarios/21_The_Heart.cfg:99 ./Invasion_from_the_Unknown/scenarios/21_The_Heart.cfg:115 ./Invasion_from_the_Unknown/scenarios/22B_Face_of_the_Enemy.cfg:50 ./Invasion_from_the_Unknown/scenarios/22B_Face_of_the_Enemy.cfg:79 ./Invasion_from_the_Unknown/scenarios/22C_Dark_Hive.cfg:52 ./Invasion_from_the_Unknown/scenarios/22C_Dark_Hive.cfg:155 ./Invasion_from_the_Unknown/scenarios/23A_Frozen_Hell.cfg:112
 msgid "team_name^Loyalists"
 msgstr ""
 
@@ -3472,7 +3472,7 @@ msgid "Aaaaaaye!!"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ./Invasion_from_the_Unknown/scenarios/22A_Innuendo.cfg:1284 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:1081 ./Invasion_from_the_Unknown/scenarios/05b_Cursed_Plateau.cfg:304
+#: ./Invasion_from_the_Unknown/scenarios/05b_Cursed_Plateau.cfg:304 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:1081 ./Invasion_from_the_Unknown/scenarios/22A_Innuendo.cfg:1284
 msgid "A wall moves."
 msgstr ""
 
@@ -3546,10 +3546,10 @@ msgstr ""
 msgid "Durbaghar"
 msgstr ""
 
-#. [side]: type=Orcish Warrior, id=Durbaghar
-#. [side]: type=Orcish Sovereign, id=Kal Magar
-#. [side]: type=Orcish Slurbow, id=Barglor
 #. [side]: type=Orcish Crossbowman, id=Diglet
+#. [side]: type=Orcish Slurbow, id=Barglor
+#. [side]: type=Orcish Sovereign, id=Kal Magar
+#. [side]: type=Orcish Warrior, id=Durbaghar
 #: ./Invasion_from_the_Unknown/scenarios/06_The_Moon_Valley.cfg:60 ./Invasion_from_the_Unknown/scenarios/06_The_Moon_Valley.cfg:80 ./Invasion_from_the_Unknown/scenarios/06_The_Moon_Valley.cfg:105 ./Invasion_from_the_Unknown/scenarios/06_The_Moon_Valley.cfg:125
 msgid "team_name^Orcs"
 msgstr ""
@@ -3591,7 +3591,7 @@ msgstr ""
 
 #. [message]: speaker=Elynia
 #. [message]: speaker=Supporter
-#: ./Invasion_from_the_Unknown/scenarios/18_Armageddon.cfg:161 ./Invasion_from_the_Unknown/scenarios/22C_Dark_Hive.cfg:651 ./Invasion_from_the_Unknown/scenarios/06_The_Moon_Valley.cfg:236
+#: ./Invasion_from_the_Unknown/scenarios/06_The_Moon_Valley.cfg:236 ./Invasion_from_the_Unknown/scenarios/18_Armageddon.cfg:161 ./Invasion_from_the_Unknown/scenarios/22C_Dark_Hive.cfg:651
 msgid "Did you hear that?"
 msgstr ""
 
@@ -3655,11 +3655,11 @@ msgstr ""
 msgid "Pray the enemy has not infested the caves before us?"
 msgstr ""
 
-#. [message]: speaker=Mal Keshar
 #. [message]: speaker=Anlindë
 #. [message]: speaker=Elynia
 #. [message]: speaker=Erathan
-#: ./Invasion_from_the_Unknown/scenarios/15_Shadows_of_Time.cfg:758 ./Invasion_from_the_Unknown/scenarios/06_The_Moon_Valley.cfg:288 ./Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:477 ./Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:485
+#. [message]: speaker=Mal Keshar
+#: ./Invasion_from_the_Unknown/scenarios/06_The_Moon_Valley.cfg:288 ./Invasion_from_the_Unknown/scenarios/15_Shadows_of_Time.cfg:758 ./Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:477 ./Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:485
 msgid "..."
 msgstr ""
 
@@ -3673,9 +3673,9 @@ msgstr ""
 msgid "Fair enough. To arms!"
 msgstr ""
 
-#. [message]: speaker=Galas
 #. [message]: role=Supporter
-#: ./Invasion_from_the_Unknown/scenarios/15_Shadows_of_Time.cfg:439 ./Invasion_from_the_Unknown/scenarios/06_The_Moon_Valley.cfg:300
+#. [message]: speaker=Galas
+#: ./Invasion_from_the_Unknown/scenarios/06_The_Moon_Valley.cfg:300 ./Invasion_from_the_Unknown/scenarios/15_Shadows_of_Time.cfg:439
 msgid "To arms!"
 msgstr ""
 
@@ -3759,9 +3759,9 @@ msgstr ""
 msgid "Ceel"
 msgstr ""
 
-#. [message]: speaker=Mal Keshar
 #. [message]: speaker=Galas
-#: ./Invasion_from_the_Unknown/scenarios/23By_Broken_Heart.cfg:108 ./Invasion_from_the_Unknown/scenarios/06_The_Moon_Valley.cfg:453
+#. [message]: speaker=Mal Keshar
+#: ./Invasion_from_the_Unknown/scenarios/06_The_Moon_Valley.cfg:453 ./Invasion_from_the_Unknown/scenarios/23By_Broken_Heart.cfg:108
 msgid "Uh-oh."
 msgstr ""
 
@@ -3965,9 +3965,9 @@ msgstr ""
 msgid "This bottle seems to contain a potion of strength. It is said that these can turn even weaklings into dangerous fighters. I just wish it was a bigger flask — it contains only one dose. We should carefully choose who should drink it."
 msgstr ""
 
-#. [object]: id=strength_potion_25_1
 #. [object]: id=e1l7_strength_potion
-#: ./Invasion_from_the_Unknown/scenarios/22A_Innuendo.cfg:763 ./Invasion_from_the_Unknown/scenarios/07_The_Elf_and_Goliath.cfg:663
+#. [object]: id=strength_potion_25_1
+#: ./Invasion_from_the_Unknown/scenarios/07_The_Elf_and_Goliath.cfg:663 ./Invasion_from_the_Unknown/scenarios/22A_Innuendo.cfg:763
 msgid "Potion of Strength"
 msgstr ""
 
@@ -3976,16 +3976,16 @@ msgstr ""
 msgid "The drinker’s strength is increased for a while, adding 2 damage points to their melee attacks, and adding 8 points to their total HP."
 msgstr ""
 
-#. [object]: id=strength_potion_25_1
 #. [object]: id=deftness_potion_25_1
 #. [object]: id=e1l7_strength_potion
-#: ./Invasion_from_the_Unknown/scenarios/22A_Innuendo.cfg:767 ./Invasion_from_the_Unknown/scenarios/22A_Innuendo.cfg:812 ./Invasion_from_the_Unknown/scenarios/07_The_Elf_and_Goliath.cfg:668
+#. [object]: id=strength_potion_25_1
+#: ./Invasion_from_the_Unknown/scenarios/07_The_Elf_and_Goliath.cfg:668 ./Invasion_from_the_Unknown/scenarios/22A_Innuendo.cfg:767 ./Invasion_from_the_Unknown/scenarios/22A_Innuendo.cfg:812
 msgid "This potion can only be used by living beings. Let another take it."
 msgstr ""
 
 #. [message]: speaker=boss2
 #. [message]: speaker=unit
-#: ./Invasion_from_the_Unknown/scenarios/13_Face_your_Fate.cfg:519 ./Invasion_from_the_Unknown/scenarios/07_The_Elf_and_Goliath.cfg:750
+#: ./Invasion_from_the_Unknown/scenarios/07_The_Elf_and_Goliath.cfg:750 ./Invasion_from_the_Unknown/scenarios/13_Face_your_Fate.cfg:519
 msgid "What is this?"
 msgstr ""
 
@@ -4080,9 +4080,9 @@ msgid "An Errand of Hope"
 msgstr ""
 
 #. [side]
-#. [side]: id=King Asthorgar, type=Dwarvish Lord
 #. [side]: id=Denathor, type=Dwarvish Explorer
 #. [side]: id=Furrin, type=Dwarvish Dragonguard
+#. [side]: id=King Asthorgar, type=Dwarvish Lord
 #: ./Invasion_from_the_Unknown/scenarios/08_Errand_of_Hope.cfg:45 ./Invasion_from_the_Unknown/scenarios/08_Errand_of_Hope.cfg:65 ./Invasion_from_the_Unknown/scenarios/11_Strike_on_New_Knalga.cfg:55 ./Invasion_from_the_Unknown/scenarios/11_Strike_on_New_Knalga.cfg:133 ./Invasion_from_the_Unknown/scenarios/11_Strike_on_New_Knalga.cfg:209
 msgid "team_name^Dwarves"
 msgstr ""
@@ -4370,10 +4370,10 @@ msgstr ""
 msgid "A Royal Meeting"
 msgstr ""
 
-#. [side]: type=Dwarvish Lord, id=King Asthorgar
 #. [side]: id=King Asthorgar, type=Dwarvish Lord
+#. [side]: type=Dwarvish Lord, id=King Asthorgar
 #. [unit]: id=King Asthorgar, type=Dwarvish Lord
-#: ./Invasion_from_the_Unknown/scenarios/20x_The_Plot.cfg:33 ./Invasion_from_the_Unknown/scenarios/08x_A_Royal_Meeting.cfg:33 ./Invasion_from_the_Unknown/scenarios/14_Bye_and_Behold.cfg:242 ./Invasion_from_the_Unknown/scenarios/11_Strike_on_New_Knalga.cfg:43 ./Invasion_from_the_Unknown/scenarios/11_Strike_on_New_Knalga.cfg:715 ./Invasion_from_the_Unknown/scenarios/21_The_Heart.cfg:59
+#: ./Invasion_from_the_Unknown/scenarios/08x_A_Royal_Meeting.cfg:33 ./Invasion_from_the_Unknown/scenarios/11_Strike_on_New_Knalga.cfg:43 ./Invasion_from_the_Unknown/scenarios/11_Strike_on_New_Knalga.cfg:715 ./Invasion_from_the_Unknown/scenarios/14_Bye_and_Behold.cfg:242 ./Invasion_from_the_Unknown/scenarios/20x_The_Plot.cfg:33 ./Invasion_from_the_Unknown/scenarios/21_The_Heart.cfg:59
 msgid "King Asthorgar"
 msgstr ""
 
@@ -4388,7 +4388,7 @@ msgid "I am Galas, leader of the elves from the Valley of Elynia."
 msgstr ""
 
 #. [message]: speaker=Anlindë
-#: ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:1416 ./Invasion_from_the_Unknown/scenarios/08x_A_Royal_Meeting.cfg:145
+#: ./Invasion_from_the_Unknown/scenarios/08x_A_Royal_Meeting.cfg:145 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:1416
 msgid "Anlindë, First Advisor of Galas."
 msgstr ""
 
@@ -4633,8 +4633,8 @@ msgstr ""
 msgid "Lilo"
 msgstr ""
 
-#. [side]: type=Goblin Rouser, id=Lilo
 #. [side]: type=Goblin Knight, id=Pryll
+#. [side]: type=Goblin Rouser, id=Lilo
 #. [side]: type=Orcish Warrior, id=Varghor
 #: ./Invasion_from_the_Unknown/scenarios/09_The_Library.cfg:88 ./Invasion_from_the_Unknown/scenarios/09_The_Library.cfg:110 ./Invasion_from_the_Unknown/scenarios/09_The_Library.cfg:132
 msgid "team_name^Cave dwellers"
@@ -4666,7 +4666,7 @@ msgid "Optional: Defeat all enemy leaders (Bonus)"
 msgstr ""
 
 #. [objectives]
-#: ./Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:28 ./Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:359 ./Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:461 ./Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:594 ./Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:666 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:326 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:433 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:518 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:849 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:884 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:996 ./Invasion_from_the_Unknown/scenarios/11_Strike_on_New_Knalga.cfg:311 ./Invasion_from_the_Unknown/scenarios/21_The_Heart.cfg:486 ./Invasion_from_the_Unknown/scenarios/21_The_Heart.cfg:501 ./Invasion_from_the_Unknown/scenarios/09_The_Library.cfg:292 ./Invasion_from_the_Unknown/scenarios/09_The_Library.cfg:339
+#: ./Invasion_from_the_Unknown/scenarios/09_The_Library.cfg:292 ./Invasion_from_the_Unknown/scenarios/09_The_Library.cfg:339 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:326 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:433 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:518 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:849 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:884 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:996 ./Invasion_from_the_Unknown/scenarios/11_Strike_on_New_Knalga.cfg:311 ./Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:28 ./Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:359 ./Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:461 ./Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:594 ./Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:666 ./Invasion_from_the_Unknown/scenarios/21_The_Heart.cfg:486 ./Invasion_from_the_Unknown/scenarios/21_The_Heart.cfg:501
 msgid "Death of Althurin"
 msgstr ""
 
@@ -5676,8 +5676,8 @@ msgstr ""
 msgid "The unit drinks the potion, feeling immediately dazed and confused. Then, its vital energy lowers but its melee weapons gain the draining specialty."
 msgstr ""
 
-#. [object]: id=Drainer Potion
 #. [message]: speaker=narrator
+#. [object]: id=Drainer Potion
 #: ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:1972 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:2013
 msgid "Drainer Potion"
 msgstr ""
@@ -5707,8 +5707,8 @@ msgstr ""
 msgid "I’ll take it. I do not fear death!"
 msgstr ""
 
-#. [object]: id=Berserk Potion
 #. [message]: speaker=narrator
+#. [object]: id=Berserk Potion
 #: ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:2090 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:2151
 msgid "Berserk Potion"
 msgstr ""
@@ -5779,7 +5779,7 @@ msgid "Hellooooo! Anybody at home?"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ./Invasion_from_the_Unknown/scenarios/16x_Council_of_Destiny.cfg:172 ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:2283
+#: ./Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:2283 ./Invasion_from_the_Unknown/scenarios/16x_Council_of_Destiny.cfg:172
 msgid "(silence)"
 msgstr ""
 
@@ -5924,12 +5924,12 @@ msgid "Defeat all enemy leaders. (Bonus)"
 msgstr ""
 
 #. [objectives]
-#: ./Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:27 ./Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:358 ./Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:460 ./Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:593 ./Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:665 ./Invasion_from_the_Unknown/scenarios/11_Strike_on_New_Knalga.cfg:307 ./Invasion_from_the_Unknown/scenarios/21_The_Heart.cfg:485 ./Invasion_from_the_Unknown/scenarios/21_The_Heart.cfg:500
+#: ./Invasion_from_the_Unknown/scenarios/11_Strike_on_New_Knalga.cfg:307 ./Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:27 ./Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:358 ./Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:460 ./Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:593 ./Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:665 ./Invasion_from_the_Unknown/scenarios/21_The_Heart.cfg:485 ./Invasion_from_the_Unknown/scenarios/21_The_Heart.cfg:500
 msgid "Death of King Asthorgar"
 msgstr ""
 
 #. [objectives]
-#: ./Invasion_from_the_Unknown/scenarios/22B_Face_of_the_Enemy.cfg:288 ./Invasion_from_the_Unknown/scenarios/22B_Face_of_the_Enemy.cfg:703 ./Invasion_from_the_Unknown/scenarios/22B_Face_of_the_Enemy.cfg:906 ./Invasion_from_the_Unknown/scenarios/22B_Face_of_the_Enemy.cfg:929 ./Invasion_from_the_Unknown/scenarios/22B_Face_of_the_Enemy.cfg:1155 ./Invasion_from_the_Unknown/scenarios/22A_Innuendo.cfg:437 ./Invasion_from_the_Unknown/scenarios/22A_Innuendo.cfg:558 ./Invasion_from_the_Unknown/scenarios/22A_Innuendo.cfg:654 ./Invasion_from_the_Unknown/scenarios/22A_Innuendo.cfg:1412 ./Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:25 ./Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:356 ./Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:458 ./Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:591 ./Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:663 ./Invasion_from_the_Unknown/scenarios/23A_Frozen_Hell.cfg:290 ./Invasion_from_the_Unknown/scenarios/14_Bye_and_Behold.cfg:214 ./Invasion_from_the_Unknown/scenarios/18_Armageddon.cfg:144 ./Invasion_from_the_Unknown/scenarios/15_Shadows_of_Time.cfg:206 ./Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair/chimera_fight.cfg:25 ./Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair/chimera_fight.cfg:57 ./Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair/chimera_fight.cfg:108 ./Invasion_from_the_Unknown/scenarios/16_Arrival_of_the_Battalion.cfg:195 ./Invasion_from_the_Unknown/scenarios/22C_Dark_Hive.cfg:362 ./Invasion_from_the_Unknown/scenarios/23C_Broken_Heart.cfg:156 ./Invasion_from_the_Unknown/scenarios/23C_Broken_Heart.cfg:645 ./Invasion_from_the_Unknown/scenarios/23C_Broken_Heart.cfg:703 ./Invasion_from_the_Unknown/scenarios/arenas/23B_01/battle.cfg:434 ./Invasion_from_the_Unknown/scenarios/arenas/23B_01/battle.cfg:502 ./Invasion_from_the_Unknown/scenarios/arenas/23B_01.cfg:48 ./Invasion_from_the_Unknown/scenarios/19_Legend_of_Wesmere.cfg:136 ./Invasion_from_the_Unknown/scenarios/19_Legend_of_Wesmere.cfg:394 ./Invasion_from_the_Unknown/scenarios/19_Legend_of_Wesmere.cfg:414 ./Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:315 ./Invasion_from_the_Unknown/scenarios/11_Strike_on_New_Knalga.cfg:308 ./Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair.cfg:86 ./Invasion_from_the_Unknown/scenarios/21_The_Heart.cfg:482 ./Invasion_from_the_Unknown/scenarios/21_The_Heart.cfg:503 ./Invasion_from_the_Unknown/scenarios/17_Dawn_of_the_Great_War.cfg:561 ./Invasion_from_the_Unknown/scenarios/17_Dawn_of_the_Great_War.cfg:575
+#: ./Invasion_from_the_Unknown/scenarios/11_Strike_on_New_Knalga.cfg:308 ./Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:25 ./Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:356 ./Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:458 ./Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:591 ./Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:663 ./Invasion_from_the_Unknown/scenarios/14_Bye_and_Behold.cfg:214 ./Invasion_from_the_Unknown/scenarios/15_Shadows_of_Time.cfg:206 ./Invasion_from_the_Unknown/scenarios/16_Arrival_of_the_Battalion.cfg:195 ./Invasion_from_the_Unknown/scenarios/17_Dawn_of_the_Great_War.cfg:561 ./Invasion_from_the_Unknown/scenarios/17_Dawn_of_the_Great_War.cfg:575 ./Invasion_from_the_Unknown/scenarios/18_Armageddon.cfg:144 ./Invasion_from_the_Unknown/scenarios/19_Legend_of_Wesmere.cfg:136 ./Invasion_from_the_Unknown/scenarios/19_Legend_of_Wesmere.cfg:394 ./Invasion_from_the_Unknown/scenarios/19_Legend_of_Wesmere.cfg:414 ./Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:315 ./Invasion_from_the_Unknown/scenarios/21_The_Heart.cfg:482 ./Invasion_from_the_Unknown/scenarios/21_The_Heart.cfg:503 ./Invasion_from_the_Unknown/scenarios/22A_Innuendo.cfg:437 ./Invasion_from_the_Unknown/scenarios/22A_Innuendo.cfg:558 ./Invasion_from_the_Unknown/scenarios/22A_Innuendo.cfg:654 ./Invasion_from_the_Unknown/scenarios/22A_Innuendo.cfg:1412 ./Invasion_from_the_Unknown/scenarios/22B_Face_of_the_Enemy.cfg:288 ./Invasion_from_the_Unknown/scenarios/22B_Face_of_the_Enemy.cfg:703 ./Invasion_from_the_Unknown/scenarios/22B_Face_of_the_Enemy.cfg:906 ./Invasion_from_the_Unknown/scenarios/22B_Face_of_the_Enemy.cfg:929 ./Invasion_from_the_Unknown/scenarios/22B_Face_of_the_Enemy.cfg:1155 ./Invasion_from_the_Unknown/scenarios/22C_Dark_Hive.cfg:362 ./Invasion_from_the_Unknown/scenarios/23A_Frozen_Hell.cfg:290 ./Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair.cfg:86 ./Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair/chimera_fight.cfg:25 ./Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair/chimera_fight.cfg:57 ./Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair/chimera_fight.cfg:108 ./Invasion_from_the_Unknown/scenarios/23C_Broken_Heart.cfg:156 ./Invasion_from_the_Unknown/scenarios/23C_Broken_Heart.cfg:645 ./Invasion_from_the_Unknown/scenarios/23C_Broken_Heart.cfg:703 ./Invasion_from_the_Unknown/scenarios/arenas/23B_01.cfg:48 ./Invasion_from_the_Unknown/scenarios/arenas/23B_01/battle.cfg:434 ./Invasion_from_the_Unknown/scenarios/arenas/23B_01/battle.cfg:502
 msgid "Death of Elynia"
 msgstr ""
 
@@ -6374,9 +6374,9 @@ msgstr ""
 msgid "We shall make sure it is not. Now, let’s go."
 msgstr ""
 
-#. [unit_type]: id=Mother Mudcrawler, race=monster
 #. [event]
-#: ./Invasion_from_the_Unknown/units/monsters/Mother_Mudcrawler.cfg:5 ./Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:241
+#. [unit_type]: id=Mother Mudcrawler, race=monster
+#: ./Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:241 ./Invasion_from_the_Unknown/units/monsters/Mother_Mudcrawler.cfg:5
 msgid "Mother Mudcrawler"
 msgstr ""
 
@@ -6910,8 +6910,8 @@ msgstr ""
 msgid "Bye and Behold"
 msgstr ""
 
-#. [side]: id=Grilock, type=Saurian Flanker
 #. [side]: id=Arklos, type=Steppe Bladesman
+#. [side]: id=Grilock, type=Saurian Flanker
 #: ./Invasion_from_the_Unknown/scenarios/14_Bye_and_Behold.cfg:70 ./Invasion_from_the_Unknown/scenarios/14_Bye_and_Behold.cfg:104
 msgid "team_name^Barbarians"
 msgstr ""
@@ -7043,7 +7043,7 @@ msgstr ""
 
 #. [side]: type=Aragwaith Strongbow, id=Erathan
 #. [unit]: type=Aragwaith Strongbow, id=Erathan
-#: ./Invasion_from_the_Unknown/scenarios/14xB_The_Aragwaithi.cfg:42 ./Invasion_from_the_Unknown/scenarios/14xB_The_Aragwaithi.cfg:320 ./Invasion_from_the_Unknown/scenarios/14xA_The_Aragwaithi.cfg:87 ./Invasion_from_the_Unknown/scenarios/14_Bye_and_Behold.cfg:495
+#: ./Invasion_from_the_Unknown/scenarios/14_Bye_and_Behold.cfg:495 ./Invasion_from_the_Unknown/scenarios/14xA_The_Aragwaithi.cfg:87 ./Invasion_from_the_Unknown/scenarios/14xB_The_Aragwaithi.cfg:42 ./Invasion_from_the_Unknown/scenarios/14xB_The_Aragwaithi.cfg:320
 msgid "Erathan"
 msgstr ""
 
@@ -7392,14 +7392,14 @@ msgstr ""
 msgid "Blargh, get that thing out of my sight!"
 msgstr ""
 
-#. [scenario]: id=14x_The_Aragwaithi_Part_B
 #. [scenario]: id=14x_The_Aragwaithi_Part_A
-#: ./Invasion_from_the_Unknown/scenarios/14xB_The_Aragwaithi.cfg:4 ./Invasion_from_the_Unknown/scenarios/14xA_The_Aragwaithi.cfg:4
+#. [scenario]: id=14x_The_Aragwaithi_Part_B
+#: ./Invasion_from_the_Unknown/scenarios/14xA_The_Aragwaithi.cfg:4 ./Invasion_from_the_Unknown/scenarios/14xB_The_Aragwaithi.cfg:4
 msgid "The Aragwaithi"
 msgstr ""
 
 #. [side]: type=Aragwaith Ancient Banner, id=De'Arthian
-#: ./Invasion_from_the_Unknown/scenarios/14xB_The_Aragwaithi.cfg:30 ./Invasion_from_the_Unknown/scenarios/16x_Council_of_Destiny.cfg:33 ./Invasion_from_the_Unknown/scenarios/14xA_The_Aragwaithi.cfg:32
+#: ./Invasion_from_the_Unknown/scenarios/14xA_The_Aragwaithi.cfg:32 ./Invasion_from_the_Unknown/scenarios/14xB_The_Aragwaithi.cfg:30 ./Invasion_from_the_Unknown/scenarios/16x_Council_of_Destiny.cfg:33
 msgid "De’Arthian"
 msgstr ""
 
@@ -7733,8 +7733,8 @@ msgstr ""
 msgid "But if we are really going to undertake such a large enterprise, the most help we can get the better. And, although you might not like the idea, I declare we should get the orcs to join our side."
 msgstr ""
 
-#. [message]: speaker=Torancyn
 #. [message]: speaker=Mal Keshar
+#. [message]: speaker=Torancyn
 #: ./Invasion_from_the_Unknown/scenarios/14xB_The_Aragwaithi.cfg:276 ./Invasion_from_the_Unknown/scenarios/14xB_The_Aragwaithi.cfg:280
 msgid "What the...?!"
 msgstr ""
@@ -7779,11 +7779,11 @@ msgstr ""
 msgid "Shadows of Time"
 msgstr ""
 
+#. [side]
+#. [side]: type=Dwarvish Lord, id=King Asthorgar
 #. [side]: type=Elvish Hero, id=Galas
 #. [side]: type=Steppe Khan, id=Quogar Ratham
-#. [side]: type=Dwarvish Lord, id=King Asthorgar
-#. [side]
-#: ./Invasion_from_the_Unknown/scenarios/18_Armageddon.cfg:29 ./Invasion_from_the_Unknown/scenarios/15_Shadows_of_Time.cfg:37 ./Invasion_from_the_Unknown/scenarios/15_Shadows_of_Time.cfg:55 ./Invasion_from_the_Unknown/scenarios/16_Arrival_of_the_Battalion.cfg:49 ./Invasion_from_the_Unknown/scenarios/16_Arrival_of_the_Battalion.cfg:74 ./Invasion_from_the_Unknown/scenarios/19_Legend_of_Wesmere.cfg:42 ./Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:40 ./Invasion_from_the_Unknown/scenarios/21_The_Heart.cfg:53 ./Invasion_from_the_Unknown/scenarios/21_The_Heart.cfg:68 ./Invasion_from_the_Unknown/scenarios/17_Dawn_of_the_Great_War.cfg:67 ./Invasion_from_the_Unknown/scenarios/17_Dawn_of_the_Great_War.cfg:81 ./Invasion_from_the_Unknown/scenarios/17_Dawn_of_the_Great_War.cfg:104
+#: ./Invasion_from_the_Unknown/scenarios/15_Shadows_of_Time.cfg:37 ./Invasion_from_the_Unknown/scenarios/15_Shadows_of_Time.cfg:55 ./Invasion_from_the_Unknown/scenarios/16_Arrival_of_the_Battalion.cfg:49 ./Invasion_from_the_Unknown/scenarios/16_Arrival_of_the_Battalion.cfg:74 ./Invasion_from_the_Unknown/scenarios/17_Dawn_of_the_Great_War.cfg:67 ./Invasion_from_the_Unknown/scenarios/17_Dawn_of_the_Great_War.cfg:81 ./Invasion_from_the_Unknown/scenarios/17_Dawn_of_the_Great_War.cfg:104 ./Invasion_from_the_Unknown/scenarios/18_Armageddon.cfg:29 ./Invasion_from_the_Unknown/scenarios/19_Legend_of_Wesmere.cfg:42 ./Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:40 ./Invasion_from_the_Unknown/scenarios/21_The_Heart.cfg:53 ./Invasion_from_the_Unknown/scenarios/21_The_Heart.cfg:68
 msgid "team_name^Allies"
 msgstr ""
 
@@ -7802,9 +7802,9 @@ msgstr ""
 msgid "Tan Zalfargat"
 msgstr ""
 
-#. [unit]: type=Ancient Lich, id=Mal Hekuba
 #. [side]: type=Ancient Lich, id=Mal Hekuba
-#: ./Invasion_from_the_Unknown/scenarios/18_Armageddon.cfg:222 ./Invasion_from_the_Unknown/scenarios/15_Shadows_of_Time.cfg:149
+#. [unit]: type=Ancient Lich, id=Mal Hekuba
+#: ./Invasion_from_the_Unknown/scenarios/15_Shadows_of_Time.cfg:149 ./Invasion_from_the_Unknown/scenarios/18_Armageddon.cfg:222
 msgid "Mal Hekuba"
 msgstr ""
 
@@ -7814,7 +7814,7 @@ msgid "Defeat of orcish allies"
 msgstr ""
 
 #. [objectives]
-#: ./Invasion_from_the_Unknown/scenarios/18_Armageddon.cfg:146 ./Invasion_from_the_Unknown/scenarios/15_Shadows_of_Time.cfg:208 ./Invasion_from_the_Unknown/scenarios/16_Arrival_of_the_Battalion.cfg:197 ./Invasion_from_the_Unknown/scenarios/19_Legend_of_Wesmere.cfg:138 ./Invasion_from_the_Unknown/scenarios/19_Legend_of_Wesmere.cfg:396 ./Invasion_from_the_Unknown/scenarios/19_Legend_of_Wesmere.cfg:416 ./Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:317 ./Invasion_from_the_Unknown/scenarios/21_The_Heart.cfg:484 ./Invasion_from_the_Unknown/scenarios/21_The_Heart.cfg:505 ./Invasion_from_the_Unknown/scenarios/17_Dawn_of_the_Great_War.cfg:563 ./Invasion_from_the_Unknown/scenarios/17_Dawn_of_the_Great_War.cfg:577
+#: ./Invasion_from_the_Unknown/scenarios/15_Shadows_of_Time.cfg:208 ./Invasion_from_the_Unknown/scenarios/16_Arrival_of_the_Battalion.cfg:197 ./Invasion_from_the_Unknown/scenarios/17_Dawn_of_the_Great_War.cfg:563 ./Invasion_from_the_Unknown/scenarios/17_Dawn_of_the_Great_War.cfg:577 ./Invasion_from_the_Unknown/scenarios/18_Armageddon.cfg:146 ./Invasion_from_the_Unknown/scenarios/19_Legend_of_Wesmere.cfg:138 ./Invasion_from_the_Unknown/scenarios/19_Legend_of_Wesmere.cfg:396 ./Invasion_from_the_Unknown/scenarios/19_Legend_of_Wesmere.cfg:416 ./Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:317 ./Invasion_from_the_Unknown/scenarios/21_The_Heart.cfg:484 ./Invasion_from_the_Unknown/scenarios/21_The_Heart.cfg:505
 msgid "Death of Erathan"
 msgstr ""
 
@@ -8123,9 +8123,9 @@ msgstr ""
 msgid "I am afraid that she tried with all her might to stop us by crushing our warlord, along with herself, in those stinky caves. She failed — our warlord is still alive — however, he is now seriously injured and you shall pay for that with your blood."
 msgstr ""
 
-#. [message]: speaker=Erathan
 #. [message]: speaker=Darkozun
-#: ./Invasion_from_the_Unknown/scenarios/22B_Face_of_the_Enemy.cfg:1137 ./Invasion_from_the_Unknown/scenarios/16_Arrival_of_the_Battalion.cfg:236 ./Invasion_from_the_Unknown/scenarios/21_The_Heart.cfg:538
+#. [message]: speaker=Erathan
+#: ./Invasion_from_the_Unknown/scenarios/16_Arrival_of_the_Battalion.cfg:236 ./Invasion_from_the_Unknown/scenarios/21_The_Heart.cfg:538 ./Invasion_from_the_Unknown/scenarios/22B_Face_of_the_Enemy.cfg:1137
 msgid "Aye."
 msgstr ""
 
@@ -8214,8 +8214,8 @@ msgstr ""
 msgid "Well, it was not immortal, at least. But what is this? I just made a small hole in its armor and I can see living flesh, although its texture is like that of a rotten corpse. At first, one would think that it was yet another one of those animated iron golems, but it now appears to be a half-living creature covered by a hard metal shell. Removing more pieces of metal I can see a mangled body, but I cannot distinguish what creature it pertains to. What kind of evil magic is this?"
 msgstr ""
 
-#. [message]: speaker=Quogar Ratham
 #. [message]: speaker=Erathan
+#. [message]: speaker=Quogar Ratham
 #: ./Invasion_from_the_Unknown/scenarios/16_Arrival_of_the_Battalion.cfg:345 ./Invasion_from_the_Unknown/scenarios/16_Arrival_of_the_Battalion.cfg:351
 msgid "I have no idea. We have never stumbled across anything like this before. Looks like the enemy is getting new recruits from somewhere."
 msgstr ""
@@ -9171,8 +9171,8 @@ msgstr ""
 msgid "Alien Matrix"
 msgstr ""
 
-#. [side]: type=Verlissh Matrix Core, id=Matrix1
 #. [side]: type=Shaxthal Protector Drone
+#. [side]: type=Verlissh Matrix Core, id=Matrix1
 #: ./Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:73 ./Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:163
 msgid "team_name^Monsters"
 msgstr ""
@@ -9728,7 +9728,7 @@ msgid "Innuendo"
 msgstr ""
 
 #. [side]: type=Elvish Hero, id=Galas
-#: ./Invasion_from_the_Unknown/scenarios/22B_Face_of_the_Enemy.cfg:36 ./Invasion_from_the_Unknown/scenarios/22A_Innuendo.cfg:39 ./Invasion_from_the_Unknown/scenarios/23A_Frozen_Hell.cfg:61 ./Invasion_from_the_Unknown/scenarios/24_Epilogue.cfg:30 ./Invasion_from_the_Unknown/scenarios/22C_Dark_Hive.cfg:38 ./Invasion_from_the_Unknown/scenarios/23C_Broken_Heart.cfg:36 ./Invasion_from_the_Unknown/scenarios/arenas/23B_01.cfg:31 ./Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair.cfg:38
+#: ./Invasion_from_the_Unknown/scenarios/22A_Innuendo.cfg:39 ./Invasion_from_the_Unknown/scenarios/22B_Face_of_the_Enemy.cfg:36 ./Invasion_from_the_Unknown/scenarios/22C_Dark_Hive.cfg:38 ./Invasion_from_the_Unknown/scenarios/23A_Frozen_Hell.cfg:61 ./Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair.cfg:38 ./Invasion_from_the_Unknown/scenarios/23C_Broken_Heart.cfg:36 ./Invasion_from_the_Unknown/scenarios/24_Epilogue.cfg:30 ./Invasion_from_the_Unknown/scenarios/arenas/23B_01.cfg:31
 msgid "team_name^Galas"
 msgstr ""
 
@@ -9953,9 +9953,9 @@ msgstr ""
 msgid "Crawling Horror"
 msgstr ""
 
-#. [unit_type]: id=Shadow Minion, race=undead
 #. [unit]: type=Shadow Minion
-#: ./Invasion_from_the_Unknown/units/undead/Shadow_Minion.cfg:5 ./Invasion_from_the_Unknown/scenarios/22A_Innuendo.cfg:1213
+#. [unit_type]: id=Shadow Minion, race=undead
+#: ./Invasion_from_the_Unknown/scenarios/22A_Innuendo.cfg:1213 ./Invasion_from_the_Unknown/units/undead/Shadow_Minion.cfg:5
 msgid "Shadow Minion"
 msgstr ""
 
@@ -10215,8 +10215,8 @@ msgstr ""
 msgid "You shall not pass!"
 msgstr ""
 
-#. [unit]: type=Chaos Warlord, id=Elyssa
 #. [side]: type=Chaos Warlord, id=Elyssa
+#. [unit]: type=Chaos Warlord, id=Elyssa
 #: ./Invasion_from_the_Unknown/scenarios/22B_Face_of_the_Enemy.cfg:627 ./Invasion_from_the_Unknown/scenarios/22B_Face_of_the_Enemy.cfg:1035 ./Invasion_from_the_Unknown/scenarios/22C_Dark_Hive.cfg:163
 msgid "Elyssa"
 msgstr ""
@@ -10767,11 +10767,11 @@ msgid "The Frozen Hell"
 msgstr ""
 
 #. [side]
+#. [side]: id=Yradella, type=Demon Zephyr
+#. [side]: id=Zarleth, type=Shadow Courier
 #. [side]: type=Chimera, id=Chimera
 #. [side]: type=Shadow Courier, id=El’tan
 #. [side]: type=Shaxthal Sentry Drone, id=Jaleh
-#. [side]: id=Yradella, type=Demon Zephyr
-#. [side]: id=Zarleth, type=Shadow Courier
 #: ./Invasion_from_the_Unknown/scenarios/23A_Frozen_Hell.cfg:75 ./Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair/enemies.cfg:32 ./Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair/enemies.cfg:54 ./Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair/enemies.cfg:79 ./Invasion_from_the_Unknown/scenarios/arenas/23B_01/sides.cfg:27 ./Invasion_from_the_Unknown/scenarios/arenas/23B_01/sides.cfg:44 ./Invasion_from_the_Unknown/scenarios/arenas/23B_01/sides.cfg:62 ./Invasion_from_the_Unknown/scenarios/arenas/23B_01/sides.cfg:137 ./Invasion_from_the_Unknown/scenarios/arenas/23B_01/sides.cfg:166 ./Invasion_from_the_Unknown/scenarios/arenas/23B_01/sides.cfg:191
 msgid "team_name^Lair guards"
 msgstr ""
@@ -10821,14 +10821,14 @@ msgstr ""
 msgid "Welcome to my lair, foolish creatures."
 msgstr ""
 
-#. [scenario]: id=arena_23B_01
 #. [scenario]: id=23B_Welcome_to_the_Lair
-#: ./Invasion_from_the_Unknown/scenarios/arenas/23B_01.cfg:4 ./Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair.cfg:4
+#. [scenario]: id=arena_23B_01
+#: ./Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair.cfg:4 ./Invasion_from_the_Unknown/scenarios/arenas/23B_01.cfg:4
 msgid "Welcome to the Lair"
 msgstr ""
 
 #. [objectives]
-#: ./Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair/chimera_fight.cfg:106 ./Invasion_from_the_Unknown/scenarios/arenas/23B_01.cfg:46 ./Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair.cfg:84
+#: ./Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair.cfg:84 ./Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair/chimera_fight.cfg:106 ./Invasion_from_the_Unknown/scenarios/arenas/23B_01.cfg:46
 msgid "Find the Shadow Master and put a definitive end to his evil empire."
 msgstr ""
 
@@ -11108,7 +11108,7 @@ msgstr ""
 
 #. [event]: race=shaxthal
 #. [side]: type=The Shadow Master is Dead, id=Argan
-#: ./Invasion_from_the_Unknown/scenarios/arenas/23B_01/battle.cfg:217 ./Invasion_from_the_Unknown/scenarios/23Bx_Agony_of_Body_and_Soul.cfg:54
+#: ./Invasion_from_the_Unknown/scenarios/23Bx_Agony_of_Body_and_Soul.cfg:54 ./Invasion_from_the_Unknown/scenarios/arenas/23B_01/battle.cfg:217
 msgid "Argan"
 msgstr ""
 
@@ -11765,12 +11765,12 @@ msgid "Enzal"
 msgstr ""
 
 #. [then]
-#: ./Invasion_from_the_Unknown/scenarios/dehydration/hydration.cfg:35 ./Invasion_from_the_Unknown/scenarios/dehydration/_final.cfg:160
+#: ./Invasion_from_the_Unknown/scenarios/dehydration/_final.cfg:160 ./Invasion_from_the_Unknown/scenarios/dehydration/hydration.cfg:35
 msgid "female^refreshed"
 msgstr ""
 
 #. [else]
-#: ./Invasion_from_the_Unknown/scenarios/dehydration/hydration.cfg:38 ./Invasion_from_the_Unknown/scenarios/dehydration/_final.cfg:163
+#: ./Invasion_from_the_Unknown/scenarios/dehydration/_final.cfg:163 ./Invasion_from_the_Unknown/scenarios/dehydration/hydration.cfg:38
 msgid "refreshed"
 msgstr ""
 
@@ -11863,8 +11863,8 @@ msgstr ""
 msgid "Heavy Assault Trooper"
 msgstr ""
 
-#. [unit_type]: id=Verlissh Heavy Assault Trooper, race=verlissh
 #. [unit_type]: id=Aragwaith Ancient Banner, race=aragwaith
+#. [unit_type]: id=Verlissh Heavy Assault Trooper, race=verlissh
 #: ./Invasion_from_the_Unknown/units/alien-verlissh/Assault_Trooper_Heavy.cfg:24 ./Invasion_from_the_Unknown/units/humans/Aragwaith_Ancient_Banner.cfg:30
 msgid "TODO"
 msgstr ""
@@ -11890,7 +11890,7 @@ msgid "This thing is impossible to describe, no one has seen anything like it be
 msgstr ""
 
 #. [attack]: type=cold
-#: ./Invasion_from_the_Unknown/units/alien-verlissh/Psy_Crawler.cfg:33 ./Invasion_from_the_Unknown/units/alien-verlissh/Matrix_Flow_System.cfg:74 ./Invasion_from_the_Unknown/units/alien-verlissh/Matrix_Core.cfg:72
+#: ./Invasion_from_the_Unknown/units/alien-verlissh/Matrix_Core.cfg:72 ./Invasion_from_the_Unknown/units/alien-verlissh/Matrix_Flow_System.cfg:74 ./Invasion_from_the_Unknown/units/alien-verlissh/Psy_Crawler.cfg:33
 msgid "energy ray"
 msgstr ""
 
@@ -12024,7 +12024,7 @@ msgid "The best of demons are noted by their greater strength and resilience, al
 msgstr ""
 
 #. [attack]: type=cold
-#: ./Invasion_from_the_Unknown/units/demons/Grunt.cfg:39 ./Invasion_from_the_Unknown/units/demons/Warrior.cfg:41 ./Invasion_from_the_Unknown/units/demons/Shadow_Courier.cfg:42 ./Invasion_from_the_Unknown/units/shaxthal/Boss_Master_of_Darkness.cfg:53 ./Invasion_from_the_Unknown/units/humans/Chaos_Invoker_Lore.cfg:48
+#: ./Invasion_from_the_Unknown/units/demons/Grunt.cfg:39 ./Invasion_from_the_Unknown/units/demons/Shadow_Courier.cfg:42 ./Invasion_from_the_Unknown/units/demons/Warrior.cfg:41 ./Invasion_from_the_Unknown/units/humans/Chaos_Invoker_Lore.cfg:48 ./Invasion_from_the_Unknown/units/shaxthal/Boss_Master_of_Darkness.cfg:53
 msgid "infernal chill"
 msgstr ""
 
@@ -12184,9 +12184,9 @@ msgstr ""
 msgid "ethereal zephyr"
 msgstr ""
 
-#. [unit_type]: id=Anlindë Dead, race=elf, description=GO AWAY
 #. [unit_type]: id=Anlinde Elvish Avatar, race=elf
-#: ./Invasion_from_the_Unknown/units/elves-wood/Dead_Anlinde.cfg:15 ./Invasion_from_the_Unknown/units/elves-wood/Anlinde_Avatar.cfg:5
+#. [unit_type]: id=Anlindë Dead, race=elf, description=GO AWAY
+#: ./Invasion_from_the_Unknown/units/elves-wood/Anlinde_Avatar.cfg:5 ./Invasion_from_the_Unknown/units/elves-wood/Dead_Anlinde.cfg:15
 msgid "female^Elvish Avatar"
 msgstr ""
 
@@ -12229,7 +12229,7 @@ msgid "Since elves are not warlike by nature, most of their population is compos
 msgstr ""
 
 #. [attack]: type=pierce
-#: ./Invasion_from_the_Unknown/units/elves-wood/Civilian.cfg:47 ./Invasion_from_the_Unknown/units/humans/Chaos_Longbowman.cfg:35 ./Invasion_from_the_Unknown/units/humans/Chaos_Longbowman_Heavy.cfg:36 ./Invasion_from_the_Unknown/units/humans/Chaos_Bowman.cfg:37
+#: ./Invasion_from_the_Unknown/units/elves-wood/Civilian.cfg:47 ./Invasion_from_the_Unknown/units/humans/Chaos_Bowman.cfg:37 ./Invasion_from_the_Unknown/units/humans/Chaos_Longbowman.cfg:35 ./Invasion_from_the_Unknown/units/humans/Chaos_Longbowman_Heavy.cfg:36
 msgid "bow"
 msgstr ""
 
@@ -12249,7 +12249,7 @@ msgid "The elvish militia is mainly composed of civilians who have dropped their
 msgstr ""
 
 #. [attack]: type=impact
-#: ./Invasion_from_the_Unknown/units/elves-wood/Prowler.cfg:51 ./Invasion_from_the_Unknown/units/elves-wood/Hunter.cfg:46 ./Invasion_from_the_Unknown/units/elves-wood/Trapper.cfg:47
+#: ./Invasion_from_the_Unknown/units/elves-wood/Hunter.cfg:46 ./Invasion_from_the_Unknown/units/elves-wood/Prowler.cfg:51 ./Invasion_from_the_Unknown/units/elves-wood/Trapper.cfg:47
 msgid "bolas"
 msgstr ""
 
@@ -12322,12 +12322,12 @@ msgid "The beautiful nymphs that secretly live in forests have been named Dryads
 msgstr ""
 
 #. [attack]: type=fire
-#: ./Invasion_from_the_Unknown/units/faeries/Sprite.cfg:30 ./Invasion_from_the_Unknown/units/faeries/Spirit.cfg:45 ./Invasion_from_the_Unknown/units/faeries/Dryad.cfg:41 ./Invasion_from_the_Unknown/units/faeries/Fire.cfg:31
+#: ./Invasion_from_the_Unknown/units/faeries/Dryad.cfg:41 ./Invasion_from_the_Unknown/units/faeries/Fire.cfg:31 ./Invasion_from_the_Unknown/units/faeries/Spirit.cfg:45 ./Invasion_from_the_Unknown/units/faeries/Sprite.cfg:30
 msgid "fire aura"
 msgstr ""
 
 #. [attack]: type=fire
-#: ./Invasion_from_the_Unknown/units/faeries/Sprite.cfg:39 ./Invasion_from_the_Unknown/units/faeries/Spirit.cfg:57 ./Invasion_from_the_Unknown/units/faeries/elynia/Sylvan_Warden.cfg:66 ./Invasion_from_the_Unknown/units/faeries/Dryad.cfg:50 ./Invasion_from_the_Unknown/units/faeries/Fire.cfg:40
+#: ./Invasion_from_the_Unknown/units/faeries/Dryad.cfg:50 ./Invasion_from_the_Unknown/units/faeries/Fire.cfg:40 ./Invasion_from_the_Unknown/units/faeries/Spirit.cfg:57 ./Invasion_from_the_Unknown/units/faeries/Sprite.cfg:39 ./Invasion_from_the_Unknown/units/faeries/elynia/Sylvan_Warden.cfg:66
 msgid "mystic fire"
 msgstr ""
 
@@ -12397,10 +12397,10 @@ msgstr ""
 msgid "It is as majestic as a falcon, yet not a falcon."
 msgstr ""
 
-#. [attack]: type=pierce
-#. [attack]: type=blade
 #. [attack]: type,range=pierce,melee
-#: ./Invasion_from_the_Unknown/units/shaxthal/Thunderbird.cfg:31 ./Invasion_from_the_Unknown/units/shaxthal/Razorbird.cfg:31 ./Invasion_from_the_Unknown/units/monsters/NPC_Crow.cfg:26 ./Invasion_from_the_Unknown/units/monsters/NPC_Falcon.cfg:26 ./Invasion_from_the_Unknown/units/faeries/elynia/glamour-variations/_final.cfg:22
+#. [attack]: type=blade
+#. [attack]: type=pierce
+#: ./Invasion_from_the_Unknown/units/faeries/elynia/glamour-variations/_final.cfg:22 ./Invasion_from_the_Unknown/units/monsters/NPC_Crow.cfg:26 ./Invasion_from_the_Unknown/units/monsters/NPC_Falcon.cfg:26 ./Invasion_from_the_Unknown/units/shaxthal/Razorbird.cfg:31 ./Invasion_from_the_Unknown/units/shaxthal/Thunderbird.cfg:31
 msgid "beak"
 msgstr ""
 
@@ -12412,9 +12412,9 @@ msgstr ""
 msgid "It may look like a mighty rabbit, but it isn’t."
 msgstr ""
 
-#. [attack]: type=pierce
 #. [attack]: type,range=pierce,melee
-#: ./Invasion_from_the_Unknown/units/monsters/NPC_Rabbit.cfg:27 ./Invasion_from_the_Unknown/units/faeries/elynia/glamour-variations/_final.cfg:96
+#. [attack]: type=pierce
+#: ./Invasion_from_the_Unknown/units/faeries/elynia/glamour-variations/_final.cfg:96 ./Invasion_from_the_Unknown/units/monsters/NPC_Rabbit.cfg:27
 msgid "incisors"
 msgstr ""
 
@@ -12442,9 +12442,9 @@ msgstr ""
 msgid "It may look like a Shaxthal Drone, but it isn’t."
 msgstr ""
 
-#. [attack]: type=impact
 #. [attack]: type,range=impact,ranged
-#: ./Invasion_from_the_Unknown/units/shaxthal/Drone_Assault.cfg:49 ./Invasion_from_the_Unknown/units/shaxthal/Drone_Runner.cfg:47 ./Invasion_from_the_Unknown/units/shaxthal/Drone_Protector.cfg:45 ./Invasion_from_the_Unknown/units/faeries/elynia/glamour-variations/_final.cfg:287
+#. [attack]: type=impact
+#: ./Invasion_from_the_Unknown/units/faeries/elynia/glamour-variations/_final.cfg:287 ./Invasion_from_the_Unknown/units/shaxthal/Drone_Assault.cfg:49 ./Invasion_from_the_Unknown/units/shaxthal/Drone_Protector.cfg:45 ./Invasion_from_the_Unknown/units/shaxthal/Drone_Runner.cfg:47
 msgid "energy shock"
 msgstr ""
 
@@ -12544,7 +12544,7 @@ msgid "With experience, Eagle riders become more skilled and the relation with t
 msgstr ""
 
 #. [attack]: type=impact
-#: ./Invasion_from_the_Unknown/units/humans/Aragwaith_Eagle_Rider.cfg:37 ./Invasion_from_the_Unknown/units/humans/Aragwaith_Eagle_Master.cfg:38
+#: ./Invasion_from_the_Unknown/units/humans/Aragwaith_Eagle_Master.cfg:38 ./Invasion_from_the_Unknown/units/humans/Aragwaith_Eagle_Rider.cfg:37
 msgid "prey crush"
 msgstr ""
 
@@ -12604,7 +12604,7 @@ msgid "While Aragwaithi Swordsmen seem uncannily skilled to blade-wielders of ot
 msgstr ""
 
 #. [attack]: type=blade
-#: ./Invasion_from_the_Unknown/units/humans/Aragwaith_Swordmaster.cfg:78 ./Invasion_from_the_Unknown/units/humans/Aragwaith_Longswordsman.cfg:41
+#: ./Invasion_from_the_Unknown/units/humans/Aragwaith_Longswordsman.cfg:41 ./Invasion_from_the_Unknown/units/humans/Aragwaith_Swordmaster.cfg:78
 msgid "long sword"
 msgstr ""
 
@@ -12765,12 +12765,12 @@ msgid "At the zenith of their career, mounted soldiers of Chaos go through unkno
 msgstr ""
 
 #. [attack]: type=blade
-#: ./Invasion_from_the_Unknown/units/humans/Chaos_Cavalier.cfg:34 ./Invasion_from_the_Unknown/units/humans/Chaos_Raider.cfg:40 ./Invasion_from_the_Unknown/units/humans/Chaos_Longbowman.cfg:26 ./Invasion_from_the_Unknown/units/humans/Chaos_Cataphract.cfg:33 ./Invasion_from_the_Unknown/units/humans/Chaos_Longbowman_Heavy.cfg:27
+#: ./Invasion_from_the_Unknown/units/humans/Chaos_Cataphract.cfg:33 ./Invasion_from_the_Unknown/units/humans/Chaos_Cavalier.cfg:34 ./Invasion_from_the_Unknown/units/humans/Chaos_Longbowman.cfg:26 ./Invasion_from_the_Unknown/units/humans/Chaos_Longbowman_Heavy.cfg:27 ./Invasion_from_the_Unknown/units/humans/Chaos_Raider.cfg:40
 msgid "sword"
 msgstr ""
 
 #. [attack]: type=pierce
-#: ./Invasion_from_the_Unknown/units/humans/Chaos_Cavalier.cfg:43 ./Invasion_from_the_Unknown/units/humans/Chaos_Cataphract.cfg:42
+#: ./Invasion_from_the_Unknown/units/humans/Chaos_Cataphract.cfg:42 ./Invasion_from_the_Unknown/units/humans/Chaos_Cavalier.cfg:43
 msgid "crossbow"
 msgstr ""
 
@@ -12826,7 +12826,7 @@ msgid "Demons know well that the only thing which can stop a tidal wave is a pow
 msgstr ""
 
 #. [attack]: type=impact
-#: ./Invasion_from_the_Unknown/units/humans/Chaos_Hell_Guardian.cfg:36 ./Invasion_from_the_Unknown/units/humans/Chaos_Doom_Guard.cfg:35
+#: ./Invasion_from_the_Unknown/units/humans/Chaos_Doom_Guard.cfg:35 ./Invasion_from_the_Unknown/units/humans/Chaos_Hell_Guardian.cfg:36
 msgid "shield"
 msgstr ""
 
@@ -12881,7 +12881,7 @@ msgid "These are dark cultists whose mastery of chaos magic is impressive, calle
 msgstr ""
 
 #. [attack]: type=arcane
-#: ./Invasion_from_the_Unknown/units/shaxthal/Boss_Warlord.cfg:52 ./Invasion_from_the_Unknown/units/humans/Chaos_Invoker_Magus.cfg:48 ./Invasion_from_the_Unknown/units/humans/Chaos_Invoker_Lore.cfg:60 ./Invasion_from_the_Unknown/units/humans/Chaos_Invoker.cfg:47
+#: ./Invasion_from_the_Unknown/units/humans/Chaos_Invoker.cfg:47 ./Invasion_from_the_Unknown/units/humans/Chaos_Invoker_Lore.cfg:60 ./Invasion_from_the_Unknown/units/humans/Chaos_Invoker_Magus.cfg:48 ./Invasion_from_the_Unknown/units/shaxthal/Boss_Warlord.cfg:52
 msgid "ethereal blast"
 msgstr ""
 
@@ -13104,8 +13104,8 @@ msgstr ""
 msgid "These towers were designed to be difficult to strike down, making of them great defense facilities. On their tops dual light turrets are installed, which can stab, or even burn, opponents in less time than it takes to say “touché”."
 msgstr ""
 
-#. [attack]: type=pierce
 #. [attack]: type=fire
+#. [attack]: type=pierce
 #: ./Invasion_from_the_Unknown/units/mechanical/Sentry_Tower.cfg:41 ./Invasion_from_the_Unknown/units/mechanical/Sentry_Tower.cfg:50
 msgid "dual laser cannon"
 msgstr ""
@@ -13145,8 +13145,8 @@ msgstr ""
 msgid "Only a wicked evil wizard could have taken the characteristics of various monsters and have put them together in a single weapon of their cause. With three tails, a pair of feathery wings, the body of a gigantic bird and the eyes of a fearsome Cockatrice, this Chimera is not a foe to play with. Its ability to turn its oponents to stone is probably the major threat it imposes over its victims. Use extreme caution, and never look directly to its eyes."
 msgstr ""
 
-#. [attack]: type=cold
 #. [attack]: type=arcane
+#. [attack]: type=cold
 #: ./Invasion_from_the_Unknown/units/monsters/Chimera.cfg:46 ./Invasion_from_the_Unknown/units/monsters/Cockatrice.cfg:37 ./Invasion_from_the_Unknown/units/monsters/Eyestalk.cfg:64
 msgid "gaze"
 msgstr ""
@@ -13252,7 +13252,7 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=pierce
-#: ./Invasion_from_the_Unknown/units/monsters/Leech_Giant.cfg:30 ./Invasion_from_the_Unknown/units/monsters/Leech.cfg:58 ./Invasion_from_the_Unknown/units/monsters/Leech_Brain_Drainer.cfg:31
+#: ./Invasion_from_the_Unknown/units/monsters/Leech.cfg:58 ./Invasion_from_the_Unknown/units/monsters/Leech_Brain_Drainer.cfg:31 ./Invasion_from_the_Unknown/units/monsters/Leech_Giant.cfg:30
 msgid "drainer"
 msgstr ""
 
@@ -13369,7 +13369,7 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=cold
-#: ./Invasion_from_the_Unknown/units/orcs-steppe/Icewind_Herder.cfg:46 ./Invasion_from_the_Unknown/units/orcs-steppe/Icewind_Master.cfg:40 ./Invasion_from_the_Unknown/units/orcs-steppe/Icewind_Drover.cfg:41
+#: ./Invasion_from_the_Unknown/units/orcs-steppe/Icewind_Drover.cfg:41 ./Invasion_from_the_Unknown/units/orcs-steppe/Icewind_Herder.cfg:46 ./Invasion_from_the_Unknown/units/orcs-steppe/Icewind_Master.cfg:40
 msgid "frostbite"
 msgstr ""
 
@@ -13411,7 +13411,7 @@ msgid "Some of the Steppe Orcs aspiring to power realize that they actually have
 msgstr ""
 
 #. [attack]: type=impact
-#: ./Invasion_from_the_Unknown/units/orcs-steppe/Khan.cfg:29 ./Invasion_from_the_Unknown/units/orcs-steppe/Spearhead.cfg:24 ./Invasion_from_the_Unknown/units/orcs-steppe/Vanguard.cfg:26 ./Invasion_from_the_Unknown/units/orcs-steppe/Juggernaut.cfg:24
+#: ./Invasion_from_the_Unknown/units/orcs-steppe/Juggernaut.cfg:24 ./Invasion_from_the_Unknown/units/orcs-steppe/Khan.cfg:29 ./Invasion_from_the_Unknown/units/orcs-steppe/Spearhead.cfg:24 ./Invasion_from_the_Unknown/units/orcs-steppe/Vanguard.cfg:26
 msgid "flail"
 msgstr ""
 
@@ -13452,7 +13452,7 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=cold
-#: ./Invasion_from_the_Unknown/units/orcs-steppe/Pariah.cfg:24 ./Invasion_from_the_Unknown/units/orcs-steppe/Outcast.cfg:25
+#: ./Invasion_from_the_Unknown/units/orcs-steppe/Outcast.cfg:25 ./Invasion_from_the_Unknown/units/orcs-steppe/Pariah.cfg:24
 msgid "frigid touch"
 msgstr ""
 
@@ -13477,7 +13477,7 @@ msgid "Aptly named, the Rigid are a near unbreakable foe. They often form fall-b
 msgstr ""
 
 #. [attack]: type=impact
-#: ./Invasion_from_the_Unknown/units/orcs-steppe/Shieldbearer.cfg:30 ./Invasion_from_the_Unknown/units/orcs-steppe/Rigid.cfg:29 ./Invasion_from_the_Unknown/units/orcs-steppe/Stoic.cfg:30
+#: ./Invasion_from_the_Unknown/units/orcs-steppe/Rigid.cfg:29 ./Invasion_from_the_Unknown/units/orcs-steppe/Shieldbearer.cfg:30 ./Invasion_from_the_Unknown/units/orcs-steppe/Stoic.cfg:30
 msgid "shield bash"
 msgstr ""
 
@@ -13586,9 +13586,9 @@ msgstr ""
 msgid "Of the many monstrosities spotted in the Chaos Armies, strange metallic creeps known as the ‘Shaxthals’ lead the front lines. Their attack strength is the most fearsome one, and this has several implications. Firstly, most of the few fools who dare oppose them directly have the misfortune of being killed in a slow painful manner, as a red light beam coming from these abominations’ eyes crushes their victim’s brain, literally; secondly, the least of these few defiant people, have the opportunity to see what lies beneath the shaxthal’s armor, and afterwards, don’t dare to say what they have seen, at least not more than a single time. So dark must be the secret behind their rising and breeding that not even the chaos Lores dare step close to these messengers of pain and despair."
 msgstr ""
 
-#. [unit_type]: id=The Shadow Master is Dead, race=shaxthal, description=NOONE SHOULD BE READING THIS
 #. [unit_type]: id=Master of Darkness, race=shaxthal
-#: ./Invasion_from_the_Unknown/units/shaxthal/Dead_Shadow_Master.cfg:6 ./Invasion_from_the_Unknown/units/shaxthal/Boss_Master_of_Darkness.cfg:5
+#. [unit_type]: id=The Shadow Master is Dead, race=shaxthal, description=NOONE SHOULD BE READING THIS
+#: ./Invasion_from_the_Unknown/units/shaxthal/Boss_Master_of_Darkness.cfg:5 ./Invasion_from_the_Unknown/units/shaxthal/Dead_Shadow_Master.cfg:6
 msgid "Master of Darkness"
 msgstr ""
 
@@ -13705,7 +13705,7 @@ msgid "Beside the manufactured drones, other exotic lifeforms have developed and
 msgstr ""
 
 #. [attack]: type=blade
-#: ./Invasion_from_the_Unknown/units/shaxthal/Thunderbird.cfg:43 ./Invasion_from_the_Unknown/units/shaxthal/Razorbird.cfg:40
+#: ./Invasion_from_the_Unknown/units/shaxthal/Razorbird.cfg:40 ./Invasion_from_the_Unknown/units/shaxthal/Thunderbird.cfg:43
 msgid "blade shower"
 msgstr ""
 
@@ -13818,7 +13818,7 @@ msgid "Tidal waves of water have been known to have acquired their own conscious
 msgstr ""
 
 #. [attack]: type=impact
-#: ./Invasion_from_the_Unknown/units/spirits/Water_Tidal.cfg:25 ./Invasion_from_the_Unknown/units/spirits/Water_Spirit.cfg:26
+#: ./Invasion_from_the_Unknown/units/spirits/Water_Spirit.cfg:26 ./Invasion_from_the_Unknown/units/spirits/Water_Tidal.cfg:25
 msgid "water punch"
 msgstr ""
 
@@ -13866,7 +13866,7 @@ msgid "Revered warriors of old roam through the elven forests, visible only due 
 msgstr ""
 
 #. [attack]: type=arcane
-#: ./Invasion_from_the_Unknown/units/undead/Elvish_Spirit_Ancestor.cfg:33 ./Invasion_from_the_Unknown/units/undead/Elvish_Spirit_Warrior.cfg:34 ./Invasion_from_the_Unknown/units/undead/Elvish_Spirit_Forefather.cfg:34
+#: ./Invasion_from_the_Unknown/units/undead/Elvish_Spirit_Ancestor.cfg:33 ./Invasion_from_the_Unknown/units/undead/Elvish_Spirit_Forefather.cfg:34 ./Invasion_from_the_Unknown/units/undead/Elvish_Spirit_Warrior.cfg:34
 msgid "ancient blade"
 msgstr ""
 
