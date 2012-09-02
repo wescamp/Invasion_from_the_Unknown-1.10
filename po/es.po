@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: es\n"
-"Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-04-03 16:46-0400\n"
 "PO-Revision-Date: 2007-12-04 11:49-0300\n"
 "Last-Translator: Ignacio Riquelme Morelle (Shadow Master) <shadowm2006@gmail."

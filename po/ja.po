@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: wesnoth-IftU 1.8.x\n"
-"Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-04-03 16:46-0400\n"
 "PO-Revision-Date: 2010-12-14 22:16+0900\n"
 "Last-Translator: R.N <dragonfly65th@yahoo.co.jp>\n"
